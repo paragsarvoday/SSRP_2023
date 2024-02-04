@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\camera_view.xml",
+        "source": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\src\\main\\res\\layout\\camera_view.xml"
+    },
+    {
+        "merged": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\auto_generated_widgets.xml",
+        "source": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\src\\main\\res\\layout\\auto_generated_widgets.xml"
+    },
+    {
+        "merged": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\camera_scope_layout.xml",
+        "source": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\src\\main\\res\\layout\\camera_scope_layout.xml"
+    },
+    {
+        "merged": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_log.xml",
+        "source": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\src\\main\\res\\layout\\fragment_log.xml"
+    },
+    {
+        "merged": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_info.xml",
+        "source": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\src\\main\\res\\layout\\fragment_info.xml"
+    },
+    {
+        "merged": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_app.xml",
+        "source": "C:\\Different\\Matlab_App\\Child_App_ert_rtw\\Child_App\\src\\main\\res\\layout\\fragment_app.xml"
+    }
+]

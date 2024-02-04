@@ -1,0 +1,19 @@
+com/example/map/databinding/FragmentLogBinding.java
+ com.example.map.databinding.FragmentLogBinding
+com/example/map/databinding/FragmentInfoBinding.java
+ com.example.map.databinding.FragmentInfoBinding
+com/example/map/InfoFragment.java
+ com.example.map.InfoFragment
+com/example/map/OnFragmentInteractionListener.java
+ com.example.map.OnFragmentInteractionListener
+com/example/map/databinding/ActivityMainBinding.java
+ com.example.map.databinding.ActivityMainBinding
+com/example/map/BuildConfig.java
+ com.example.map.BuildConfig
+com/example/map/map.java
+ com.example.map.map
+ com.example.map.map$1
+ com.example.map.map$2
+ com.example.map.map$3
+com/example/map/GPSHandler.java
+ com.example.map.GPSHandler

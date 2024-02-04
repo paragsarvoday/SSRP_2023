@@ -1,0 +1,1235 @@
+ SSRP_A_cgxe
+
+ Timestamp is 65165ad0 (Fri Sep 29 10:34:16 2023)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000c040H .text$mn                CODE
+ 0001:0000c040 00000036H .text$mn$00             CODE
+ 0001:0000c076 00000092H .text$x                 CODE
+ 0002:00000000 00000320H .idata$5                DATA
+ 0002:00000320 00000038H .00cfg                  DATA
+ 0002:00000358 00000008H .CRT$XCA                DATA
+ 0002:00000360 00000008H .CRT$XCZ                DATA
+ 0002:00000368 00000008H .CRT$XIA                DATA
+ 0002:00000370 00000008H .CRT$XIZ                DATA
+ 0002:00000378 00000008H .CRT$XPA                DATA
+ 0002:00000380 00000008H .CRT$XPZ                DATA
+ 0002:00000388 00000008H .CRT$XTA                DATA
+ 0002:00000390 00000010H .CRT$XTZ                DATA
+ 0002:00000398 00000000H .gehcont$y              DATA
+ 0002:00000398 00000000H .gfids$y                DATA
+ 0002:000003a0 000002e0H .rdata                  DATA
+ 0002:00000680 00000080H .rdata$CastGuardVftablesA DATA
+ 0002:00000700 00000080H .rdata$CastGuardVftablesC DATA
+ 0002:00000780 0000013cH .rdata$voltmd           DATA
+ 0002:000008bc 0000027cH .rdata$zzzdbg           DATA
+ 0002:00000b38 00000008H .rtc$IAA                DATA
+ 0002:00000b40 00000008H .rtc$IZZ                DATA
+ 0002:00000b48 00000008H .rtc$TAA                DATA
+ 0002:00000b50 00000008H .rtc$TZZ                DATA
+ 0002:00000b58 00000828H .xdata                  DATA
+ 0002:00001380 00000078H .edata                  DATA
+ 0002:000013f8 000000c8H .idata$2                DATA
+ 0002:000014c0 00000018H .idata$3                DATA
+ 0002:000014d8 00000320H .idata$4                DATA
+ 0002:000017f8 0000082eH .idata$6                DATA
+ 0003:00000000 00002870H .data                   DATA
+ 0003:00002870 00000620H .bss                    DATA
+ 0004:00000000 000009d8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_delayload_iat 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_delayload_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       mexfilerequiredapiversion  0000000180001000 f   c_mexapi_version.obj
+ 0001:00000030       cgxe_SSRP_A_method_dispatcher 0000000180001030 f   SSRP_A_cgxe.obj
+ 0001:000000d0       method_dispatcher_5xTZ4YsU7u7BGsF2q9qRzE 00000001800010d0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001ac0       cgxe_5xTZ4YsU7u7BGsF2q9qRzE_BuildInfoUpdate 0000000180002ac0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001c50       cgxe_5xTZ4YsU7u7BGsF2q9qRzE_fallback_info 0000000180002c50 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001cf0       mexFunction                0000000180002cf0 f   SSRP_A_cgxe_registry.obj
+ 0001:00003b60       _ssSetInputPortDirectFeedThroughFcn 0000000180004b60 f   SSRP_A_cgxe_registry.obj
+ 0001:00003cd0       _ssSetRWorkValueFcn        0000000180004cd0 f   SSRP_A_cgxe_registry.obj
+ 0001:00003d50       _ssGetRWorkValueFcn        0000000180004d50 f   SSRP_A_cgxe_registry.obj
+ 0001:00003dc0       _ssSetIWorkValueFcn        0000000180004dc0 f   SSRP_A_cgxe_registry.obj
+ 0001:00003e40       _ssGetIWorkValueFcn        0000000180004e40 f   SSRP_A_cgxe_registry.obj
+ 0001:00003eb0       _ssSetPWorkValueFcn        0000000180004eb0 f   SSRP_A_cgxe_registry.obj
+ 0001:00003f30       _ssGetPWorkValueFcn        0000000180004f30 f   SSRP_A_cgxe_registry.obj
+ 0001:00003fa0       _ssGetInputPortSignalFcn   0000000180004fa0 f   SSRP_A_cgxe_registry.obj
+ 0001:00004330       _ssGetInputPortBufferDstPortFcn 0000000180005330 f   SSRP_A_cgxe_registry.obj
+ 0001:000043b0       _ssGetInputPortSignalPtrsFcn 00000001800053b0 f   SSRP_A_cgxe_registry.obj
+ 0001:00004740       ssGetParameterTuningCompliance 0000000180005740 f   SSRP_A_cgxe_registry.obj
+ 0001:000047b0       _ssReadInputStringFcn      00000001800057b0 f   SSRP_A_cgxe_registry.obj
+ 0001:00004820       ssGetDTypeIdFromMxArray    0000000180005820 f   SSRP_A_cgxe_registry.obj
+ 0001:00004940       ssWriteRTWMx2dMatParam     0000000180005940 f   SSRP_A_cgxe_registry.obj
+ 0001:000049d0       ssWriteRTWMxVectParam      00000001800059d0 f   SSRP_A_cgxe_registry.obj
+ 0001:00004a50       ssWriteRTWParameters       0000000180005a50 f   SSRP_A_cgxe_registry.obj
+ 0001:00005010       ssWriteRTWParamSettings    0000000180006010 f   SSRP_A_cgxe_registry.obj
+ 0001:00005700       ssWriteRTWStr              0000000180006700 f   SSRP_A_cgxe_registry.obj
+ 0001:00005760       ssWriteRTWWorkVect         0000000180006760 f   SSRP_A_cgxe_registry.obj
+ 0001:00005cc0       ssWarning                  0000000180006cc0 f   SSRP_A_cgxe_registry.obj
+ 0001:00005db0       ssGetRootSS                0000000180006db0 f   SSRP_A_cgxe_registry.obj
+ 0001:00005e70       ssGetParentSS              0000000180006e70 f   SSRP_A_cgxe_registry.obj
+ 0001:00005f30       ssWriteRTWNameValuePair    0000000180006f30 f   SSRP_A_cgxe_registry.obj
+ 0001:00006430       _ssSetInputPortMatrixDimensions 0000000180007430 f   SSRP_A_cgxe_registry.obj
+ 0001:00006580       _ssSetOutputPortMatrixDimensions 0000000180007580 f   SSRP_A_cgxe_registry.obj
+ 0001:000066d0       _ssSetInputPortVectorDimension 00000001800076d0 f   SSRP_A_cgxe_registry.obj
+ 0001:00006780       _ssSetOutputPortVectorDimension 0000000180007780 f   SSRP_A_cgxe_registry.obj
+ 0001:00006830       ssIsRunTimeParamTunable    0000000180007830 f   SSRP_A_cgxe_registry.obj
+ 0001:000068a0       ssGetSFuncBlockHandle      00000001800078a0 f   SSRP_A_cgxe_registry.obj
+ 0001:00006910       _ssGetCallSystemNumFcnCallDestinations 0000000180007910 f   SSRP_A_cgxe_registry.obj
+ 0001:00006980       _ssGetCurrentInputPortWidth 0000000180007980 f   SSRP_A_cgxe_registry.obj
+ 0001:00006ac0       _ssGetCurrentOutputPortWidth 0000000180007ac0 f   SSRP_A_cgxe_registry.obj
+ 0001:00006c00       ssGetIsZeroCrossControlDisabled 0000000180007c00 f   SSRP_A_cgxe_registry.obj
+ 0001:00006c70       ssSetIsInputPortUsedForContZcSignal 0000000180007c70 f   SSRP_A_cgxe_registry.obj
+ 0001:00006ce0       ssSetZcSignalIsZcElementDisc 0000000180007ce0 f   SSRP_A_cgxe_registry.obj
+ 0001:00006d90       ssSetZcSignalName          0000000180007d90 f   SSRP_A_cgxe_registry.obj
+ 0001:00006e00       ssSetZcSignalWidth         0000000180007e00 f   SSRP_A_cgxe_registry.obj
+ 0001:00006e70       ssSetZcSignalZcEventType   0000000180007e70 f   SSRP_A_cgxe_registry.obj
+ 0001:00006ee0       ssSetZcSignalType          0000000180007ee0 f   SSRP_A_cgxe_registry.obj
+ 0001:00006f50       ssSetZcSignalZcTol         0000000180007f50 f   SSRP_A_cgxe_registry.obj
+ 0001:00006fc0       ssSetZcSignalNeedsEventNotification 0000000180007fc0 f   SSRP_A_cgxe_registry.obj
+ 0001:00007030       ssCreateAndAddZcSignalInfo 0000000180008030 f   SSRP_A_cgxe_registry.obj
+ 0001:000070a0       ssCloneAndAddZcSignalInfo  00000001800080a0 f   SSRP_A_cgxe_registry.obj
+ 0001:00007110       ssGetNumZcSignals          0000000180008110 f   SSRP_A_cgxe_registry.obj
+ 0001:00007180       ssGetZcSignalVector        0000000180008180 f   SSRP_A_cgxe_registry.obj
+ 0001:000071f0       ssGetZcSignalName          00000001800081f0 f   SSRP_A_cgxe_registry.obj
+ 0001:00007260       ssGetZcSignalWidth         0000000180008260 f   SSRP_A_cgxe_registry.obj
+ 0001:000072d0       ssGetZcSignalZcEventType   00000001800082d0 f   SSRP_A_cgxe_registry.obj
+ 0001:00007340       ssGetZcSignalZcEvents      0000000180008340 f   SSRP_A_cgxe_registry.obj
+ 0001:000073b0       ssGetZcSignalType          00000001800083b0 f   SSRP_A_cgxe_registry.obj
+ 0001:00007420       ssGetZcSignalZcTol         0000000180008420 f   SSRP_A_cgxe_registry.obj
+ 0001:000074a0       ssGetZcSignalNeedsEventNotification 00000001800084a0 f   SSRP_A_cgxe_registry.obj
+ 0001:00007510       ssGetZcSignalIsZcElementDisc 0000000180008510 f   SSRP_A_cgxe_registry.obj
+ 0001:000075b0       ssGetIsInputPortElementContinuous 00000001800085b0 f   SSRP_A_cgxe_registry.obj
+ 0001:00007650       _ssGetAbsTol               0000000180008650 f   SSRP_A_cgxe_registry.obj
+ 0001:000076c0       _ssSetStateAbsTol          00000001800086c0 f   SSRP_A_cgxe_registry.obj
+ 0001:000077a0       _ssSetInputPortReusableFcn 00000001800087a0 f   SSRP_A_cgxe_registry.obj
+ 0001:000078a0       _ssSetOutputPortReusableFcn 00000001800088a0 f   SSRP_A_cgxe_registry.obj
+ 0001:000079a0       _ssSetSymbolicDimsSupport  00000001800089a0 f   SSRP_A_cgxe_registry.obj
+ 0001:00007a10       _ssRegisterSymbolicDimsExpr 0000000180008a10 f   SSRP_A_cgxe_registry.obj
+ 0001:00007a90       _ssRegisterSymbolicDimsMATLABExpr 0000000180008a90 f   SSRP_A_cgxe_registry.obj
+ 0001:00007b20       _ssRegisterSymbolicDims    0000000180008b20 f   SSRP_A_cgxe_registry.obj
+ 0001:00007bc0       _ssRegisterSymbolicDimsString 0000000180008bc0 f   SSRP_A_cgxe_registry.obj
+ 0001:00007c40       _ssRegisterSymbolicDimsIntValue 0000000180008c40 f   SSRP_A_cgxe_registry.obj
+ 0001:00007cb0       _ssRegisterSymbolicEqualRelation 0000000180008cb0 f   SSRP_A_cgxe_registry.obj
+ 0001:00007d20       _ssRegisterSymbolicEqualValue 0000000180008d20 f   SSRP_A_cgxe_registry.obj
+ 0001:00007d90       _ssAmendLeadingSymbolicDims 0000000180008d90 f   SSRP_A_cgxe_registry.obj
+ 0001:00007e10       _ssAmendTrailingSymbolicDims 0000000180008e10 f   SSRP_A_cgxe_registry.obj
+ 0001:00007e90       _ssRegisterSymbolicDimsPlus 0000000180008e90 f   SSRP_A_cgxe_registry.obj
+ 0001:00007f10       _ssRegisterSymbolicDimsMinus 0000000180008f10 f   SSRP_A_cgxe_registry.obj
+ 0001:00007f90       _ssRegisterSymbolicDimsMultiply 0000000180008f90 f   SSRP_A_cgxe_registry.obj
+ 0001:00008010       _ssRegisterSymbolicDimsDivide 0000000180009010 f   SSRP_A_cgxe_registry.obj
+ 0001:00008090       _ssGetNumSymbolicDims      0000000180009090 f   SSRP_A_cgxe_registry.obj
+ 0001:00008100       _ssGetSymbolicDim          0000000180009100 f   SSRP_A_cgxe_registry.obj
+ 0001:00008180       _ssSetInputPortSymbolicDimsId 0000000180009180 f   SSRP_A_cgxe_registry.obj
+ 0001:000081f0       _ssGetCompInputPortSymbolicDimsId 00000001800091f0 f   SSRP_A_cgxe_registry.obj
+ 0001:00008260       _ssSetCompInputPortSymbolicDimsId 0000000180009260 f   SSRP_A_cgxe_registry.obj
+ 0001:000082d0       _ssSetOutputPortSymbolicDimsId 00000001800092d0 f   SSRP_A_cgxe_registry.obj
+ 0001:00008340       _ssGetCompOutputPortSymbolicDimsId 0000000180009340 f   SSRP_A_cgxe_registry.obj
+ 0001:000083b0       _ssSetCompOutputPortSymbolicDimsId 00000001800093b0 f   SSRP_A_cgxe_registry.obj
+ 0001:00008420       _ssGetDWorkSymbolicDimsId  0000000180009420 f   SSRP_A_cgxe_registry.obj
+ 0001:00008490       _ssSetDWorkSymbolicDimsId  0000000180009490 f   SSRP_A_cgxe_registry.obj
+ 0001:00008500       _ssGetCompDWorkSymbolicDimsId 0000000180009500 f   SSRP_A_cgxe_registry.obj
+ 0001:00008570       _ssSetCompDWorkSymbolicDimsId 0000000180009570 f   SSRP_A_cgxe_registry.obj
+ 0001:000085e0       _ssCreateSLCGStringBuffer  00000001800095e0 f   SSRP_A_cgxe_registry.obj
+ 0001:00008650       _ssAddToSLCGStringBuffer   0000000180009650 f   SSRP_A_cgxe_registry.obj
+ 0001:000086c0       _ssGetPointerContainedData 00000001800096c0 f   SSRP_A_cgxe_registry.obj
+ 0001:00008750       _ssGetPointerContainedDataWidth 0000000180009750 f   SSRP_A_cgxe_registry.obj
+ 0001:000087e0       _ssRegisterDynamicArrayDataTypeFcn 00000001800097e0 f   SSRP_A_cgxe_registry.obj
+ 0001:00008880       _ssGetDynamicArrayContainedDataCurrentWidthFcn 0000000180009880 f   SSRP_A_cgxe_registry.obj
+ 0001:00008950       _ssGetDynamicArrayContainedDataFcn 0000000180009950 f   SSRP_A_cgxe_registry.obj
+ 0001:00008a20       _ssGetInputPortDynamicArrayDataFcn 0000000180009a20 f   SSRP_A_cgxe_registry.obj
+ 0001:00008ae0       _ssGetOutputPortDynamicArrayDataFcn 0000000180009ae0 f   SSRP_A_cgxe_registry.obj
+ 0001:00008ba0       _ssGetInputPortDynamicArrayContainedDataFcn 0000000180009ba0 f   SSRP_A_cgxe_registry.obj
+ 0001:00008c60       _ssGetOutputPortDynamicArrayContainedDataFcn 0000000180009c60 f   SSRP_A_cgxe_registry.obj
+ 0001:00008d20       _ssGetDynamicArrayDWorkContainedDataFcn 0000000180009d20 f   SSRP_A_cgxe_registry.obj
+ 0001:0000a810       __local_stdio_printf_options 000000018000b810 f i SSRP_A_cgxe_registry.obj
+ 0001:0000a820       _vsnprintf_l               000000018000b820 f i SSRP_A_cgxe_registry.obj
+ 0001:0000a8a0       _vsprintf_l                000000018000b8a0 f i SSRP_A_cgxe_registry.obj
+ 0001:0000a8f0       sprintf                    000000018000b8f0 f i SSRP_A_cgxe_registry.obj
+ 0001:0000a93f       mxSetCell_800              000000018000b93f f   libmx:libmx.dll
+ 0001:0000a945       mxSetFieldByNumber_800     000000018000b945 f   libmx:libmx.dll
+ 0001:0000a94b       mxCreateString_800         000000018000b94b f   libmx:libmx.dll
+ 0001:0000a951       mxCreateCellMatrix_800     000000018000b951 f   libmx:libmx.dll
+ 0001:0000a957       mxCreateStructMatrix_800   000000018000b957 f   libmx:libmx.dll
+ 0001:0000a95d       mxCalloc_800               000000018000b95d f   libmx:libmx.dll
+ 0001:0000a963       mxGetM_800                 000000018000b963 f   libmx:libmx.dll
+ 0001:0000a969       mxGetClassID_800           000000018000b969 f   libmx:libmx.dll
+ 0001:0000a96f       mxGetData_800              000000018000b96f f   libmx:libmx.dll
+ 0001:0000a975       mxIsNumeric_800            000000018000b975 f   libmx:libmx.dll
+ 0001:0000a97b       mxIsChar_800               000000018000b97b f   libmx:libmx.dll
+ 0001:0000a981       mxIsComplex_800            000000018000b981 f   libmx:libmx.dll
+ 0001:0000a987       mxGetN_800                 000000018000b987 f   libmx:libmx.dll
+ 0001:0000a98d       mxGetPr_800                000000018000b98d f   libmx:libmx.dll
+ 0001:0000a993       mxSetField_800             000000018000b993 f   libmx:libmx.dll
+ 0001:0000a999       mxCreateNumericMatrix_800  000000018000b999 f   libmx:libmx.dll
+ 0001:0000a99f       mxCreateDoubleMatrix_800   000000018000b99f f   libmx:libmx.dll
+ 0001:0000a9a5       mxCreateDoubleScalar_800   000000018000b9a5 f   libmx:libmx.dll
+ 0001:0000a9ab       mxGetString_800            000000018000b9ab f   libmx:libmx.dll
+ 0001:0000a9b1       mexWarnMsgTxt_800          000000018000b9b1 f   libmex:libmex.dll
+ 0001:0000a9b7       mexPrintf_800              000000018000b9b7 f   libmex:libmex.dll
+ 0001:0000a9bd       mexCallMATLAB_800          000000018000b9bd f   libmex:libmex.dll
+ 0001:0000a9c3       mexUnlock_800              000000018000b9c3 f   libmex:libmex.dll
+ 0001:0000a9c9       mexIsLocked_800            000000018000b9c9 f   libmex:libmex.dll
+ 0001:0000a9cf       emlrtAlias                 000000018000b9cf f   libemlrt:libemlrt.dll
+ 0001:0000a9d5       emlrtAssign                000000018000b9d5 f   libemlrt:libemlrt.dll
+ 0001:0000a9db       emlrtCreateStructMatrix    000000018000b9db f   libemlrt:libemlrt.dll
+ 0001:0000a9e1       emlrtGetFieldR2017b        000000018000b9e1 f   libemlrt:libemlrt.dll
+ 0001:0000a9e7       emlrtSetFieldR2017b        000000018000b9e7 f   libemlrt:libemlrt.dll
+ 0001:0000a9ed       emlrtCreateCellMatrix      000000018000b9ed f   libemlrt:libemlrt.dll
+ 0001:0000a9f3       emlrtSetCell               000000018000b9f3 f   libemlrt:libemlrt.dll
+ 0001:0000a9f9       emlrtGetCell               000000018000b9f9 f   libemlrt:libemlrt.dll
+ 0001:0000a9ff       emlrtCreateNumericMatrix   000000018000b9ff f   libemlrt:libemlrt.dll
+ 0001:0000aa05       emlrtCreateDoubleScalar    000000018000ba05 f   libemlrt:libemlrt.dll
+ 0001:0000aa0b       emlrtCreateLogicalScalar   000000018000ba0b f   libemlrt:libemlrt.dll
+ 0001:0000aa11       emlrtCreateCharArray       000000018000ba11 f   libemlrt:libemlrt.dll
+ 0001:0000aa17       emlrtDestroyArray          000000018000ba17 f   libemlrt:libemlrt.dll
+ 0001:0000aa1d       emlrtCallMATLABR2012b      000000018000ba1d f   libemlrt:libemlrt.dll
+ 0001:0000aa23       emlrtInitCharArrayR2013a   000000018000ba23 f   libemlrt:libemlrt.dll
+ 0001:0000aa29       emlrtCheckBuiltInR2012b    000000018000ba29 f   libemlrt:libemlrt.dll
+ 0001:0000aa2f       emlrtCheckStructR2012b     000000018000ba2f f   libemlrt:libemlrt.dll
+ 0001:0000aa35       emlrtMxGetData             000000018000ba35 f   libemlrt:libemlrt.dll
+ 0001:0000aa3b       emlrtMxGetLogicals         000000018000ba3b f   libemlrt:libemlrt.dll
+ 0001:0000aa41       cgxertGetInputPortSignal   000000018000ba41 f   libmwcgxert:libmwcgxert.dll
+ 0001:0000aa47       cgxertGetRuntimeInstance   000000018000ba47 f   libmwcgxert:libmwcgxert.dll
+ 0001:0000aa4d       cgxertSetRuntimeInstance   000000018000ba4d f   libmwcgxert:libmwcgxert.dll
+ 0001:0000aa53       cgxertGetEMLRTCtx          000000018000ba53 f   libmwcgxert:libmwcgxert.dll
+ 0001:0000aa59       cgxertSetGcb               000000018000ba59 f   libmwcgxert:libmwcgxert.dll
+ 0001:0000aa5f       cgxertRestoreGcb           000000018000ba5f f   libmwcgxert:libmwcgxert.dll
+ 0001:0000aa68       __GSHandlerCheck           000000018000ba68 f   MSVCRT:gshandler.obj
+ 0001:0000aa88       __GSHandlerCheckCommon     000000018000ba88 f   MSVCRT:gshandler.obj
+ 0001:0000ab00       __security_check_cookie    000000018000bb00 f   MSVCRT:amdsecgs.obj
+ 0001:0000ab20       __raise_securityfailure    000000018000bb20 f   MSVCRT:gs_report.obj
+ 0001:0000ab54       __report_gsfailure         000000018000bb54 f   MSVCRT:gs_report.obj
+ 0001:0000ac28       __report_rangecheckfailure 000000018000bc28 f   MSVCRT:gs_report.obj
+ 0001:0000ac3c       __report_securityfailure   000000018000bc3c f   MSVCRT:gs_report.obj
+ 0001:0000acd8       __report_securityfailureEx 000000018000bcd8 f   MSVCRT:gs_report.obj
+ 0001:0000b208       _CRT_INIT                  000000018000c208 f   MSVCRT:dll_dllmain.obj
+ 0001:0000b210       _DllMainCRTStartup         000000018000c210 f   MSVCRT:dll_dllmain.obj
+ 0001:0000b2bc       __security_init_cookie     000000018000c2bc f   MSVCRT:gs_support.obj
+ 0001:0000b368       DllMain                    000000018000c368 f   MSVCRT:dll_dllmain_stub.obj
+ 0001:0000b38c       ?__scrt_initialize_type_info@@YAXXZ 000000018000c38c f   MSVCRT:tncleanup.obj
+ 0001:0000b39c       ?__scrt_uninitialize_type_info@@YAXXZ 000000018000c39c f   MSVCRT:tncleanup.obj
+ 0001:0000b3a8       __local_stdio_scanf_options 000000018000c3a8 f i MSVCRT:default_local_stdio_options.obj
+ 0001:0000b3b0       __scrt_initialize_default_local_stdio_options 000000018000c3b0 f   MSVCRT:default_local_stdio_options.obj
+ 0001:0000b3cc       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 000000018000c3cc f i MSVCRT:utility.obj
+ 0001:0000b42c       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 000000018000c42c f i MSVCRT:utility.obj
+ 0001:0000b464       NtCurrentTeb               000000018000c464 f i MSVCRT:utility.obj
+ 0001:0000b470       __scrt_acquire_startup_lock 000000018000c470 f   MSVCRT:utility.obj
+ 0001:0000b4ac       __scrt_dllmain_after_initialize_c 000000018000c4ac f   MSVCRT:utility.obj
+ 0001:0000b4e0       __scrt_dllmain_before_initialize_c 000000018000c4e0 f   MSVCRT:utility.obj
+ 0001:0000b4f8       __scrt_dllmain_crt_thread_attach 000000018000c4f8 f   MSVCRT:utility.obj
+ 0001:0000b520       __scrt_dllmain_crt_thread_detach 000000018000c520 f   MSVCRT:utility.obj
+ 0001:0000b538       __scrt_dllmain_exception_filter 000000018000c538 f   MSVCRT:utility.obj
+ 0001:0000b598       __scrt_dllmain_uninitialize_c 000000018000c598 f   MSVCRT:utility.obj
+ 0001:0000b5c8       __scrt_dllmain_uninitialize_critical 000000018000c5c8 f   MSVCRT:utility.obj
+ 0001:0000b5dc       __scrt_initialize_crt      000000018000c5dc f   MSVCRT:utility.obj
+ 0001:0000b628       __scrt_initialize_onexit_tables 000000018000c628 f   MSVCRT:utility.obj
+ 0001:0000b6b4       __scrt_is_nonwritable_in_current_image 000000018000c6b4 f   MSVCRT:utility.obj
+ 0001:0000b74c       __scrt_release_startup_lock 000000018000c74c f   MSVCRT:utility.obj
+ 0001:0000b770       __scrt_uninitialize_crt    000000018000c770 f   MSVCRT:utility.obj
+ 0001:0000b79c       _onexit                    000000018000c79c f   MSVCRT:utility.obj
+ 0001:0000b7d8       at_quick_exit              000000018000c7d8 f   MSVCRT:utility.obj
+ 0001:0000b7f8       atexit                     000000018000c7f8 f   MSVCRT:utility.obj
+ 0001:0000b810       __scrt_get_dyn_tls_init_callback 000000018000c810 f   MSVCRT:dyn_tls_init.obj
+ 0001:0000b818       __crt_debugger_hook        000000018000c818 f   MSVCRT:utility_desktop.obj
+ 0001:0000b820       __scrt_fastfail            000000018000c820 f   MSVCRT:utility_desktop.obj
+ 0001:0000b96c       __scrt_get_show_window_mode 000000018000c96c f   MSVCRT:utility_desktop.obj
+ 0001:0000b9a8       __scrt_initialize_mta      000000018000c9a8 f   MSVCRT:utility_desktop.obj
+ 0001:0000b9b0       __scrt_initialize_winrt    000000018000c9b0 f   MSVCRT:utility_desktop.obj
+ 0001:0000b9b4       __scrt_is_managed_app      000000018000c9b4 f   MSVCRT:utility_desktop.obj
+ 0001:0000ba08       __scrt_set_unhandled_exception_filter 000000018000ca08 f   MSVCRT:utility_desktop.obj
+ 0001:0000ba18       __scrt_exe_initialize_mta  000000018000ca18 f   MSVCRT:utility_desktop.obj
+ 0001:0000ba18       __scrt_stub_for_initialize_mta 000000018000ca18 f   MSVCRT:utility_desktop.obj
+ 0001:0000ba1c       __scrt_unhandled_exception_filter 000000018000ca1c f   MSVCRT:utility_desktop.obj
+ 0001:0000ba78       _RTC_Initialize            000000018000ca78 f   MSVCRT:initsect.obj
+ 0001:0000bab4       _RTC_Terminate             000000018000cab4 f   MSVCRT:initsect.obj
+ 0001:0000baf0       _guard_check_icall_nop     000000018000caf0 f i MSVCRT:guard_support.obj
+ 0001:0000baf4       ReadNoFence64              000000018000caf4 f i MSVCRT:guard_support.obj
+ 0001:0000baf8       ReadPointerNoFence         000000018000caf8 f i MSVCRT:guard_support.obj
+ 0001:0000bafc       __castguard_check_failure_debugbreak 000000018000cafc f i MSVCRT:guard_support.obj
+ 0001:0000bb18       __castguard_check_failure_fastfail 000000018000cb18 f i MSVCRT:guard_support.obj
+ 0001:0000bb3c       __castguard_check_failure_nop 000000018000cb3c f i MSVCRT:guard_support.obj
+ 0001:0000bb40       __castguard_check_failure_os_handled 000000018000cb40 f i MSVCRT:guard_support.obj
+ 0001:0000bb9c       __castguard_check_failure_user_handled 000000018000cb9c f i MSVCRT:guard_support.obj
+ 0001:0000bc10       __castguard_set_user_handler 000000018000cc10 f i MSVCRT:guard_support.obj
+ 0001:0000bc1c       __castguard_slow_path_check_debugbreak 000000018000cc1c f i MSVCRT:guard_support.obj
+ 0001:0000bc50       __castguard_slow_path_check_fastfail 000000018000cc50 f i MSVCRT:guard_support.obj
+ 0001:0000bc8c       __castguard_slow_path_check_nop 000000018000cc8c f i MSVCRT:guard_support.obj
+ 0001:0000bc90       __castguard_slow_path_check_os_handled 000000018000cc90 f i MSVCRT:guard_support.obj
+ 0001:0000bce4       __castguard_slow_path_check_user_handled 000000018000cce4 f i MSVCRT:guard_support.obj
+ 0001:0000bd50       _guard_icall_checks_enforced 000000018000cd50 f i MSVCRT:guard_support.obj
+ 0001:0000bd68       _guard_rf_checks_enforced  000000018000cd68 f i MSVCRT:guard_support.obj
+ 0001:0000bd6c       __isa_available_init       000000018000cd6c f   MSVCRT:cpu_disp.obj
+ 0001:0000bf18       _get_startup_argv_mode     000000018000cf18 f   MSVCRT:argv_mode.obj
+ 0001:0000bf20       __scrt_is_ucrt_dll_in_use  000000018000cf20 f   MSVCRT:ucrt_detection.obj
+ 0001:0000bf30       RtlCaptureContext          000000018000cf30 f   kernel32:KERNEL32.dll
+ 0001:0000bf36       RtlLookupFunctionEntry     000000018000cf36 f   kernel32:KERNEL32.dll
+ 0001:0000bf3c       RtlVirtualUnwind           000000018000cf3c f   kernel32:KERNEL32.dll
+ 0001:0000bf42       UnhandledExceptionFilter   000000018000cf42 f   kernel32:KERNEL32.dll
+ 0001:0000bf48       SetUnhandledExceptionFilter 000000018000cf48 f   kernel32:KERNEL32.dll
+ 0001:0000bf4e       GetCurrentProcess          000000018000cf4e f   kernel32:KERNEL32.dll
+ 0001:0000bf54       TerminateProcess           000000018000cf54 f   kernel32:KERNEL32.dll
+ 0001:0000bf5a       IsProcessorFeaturePresent  000000018000cf5a f   kernel32:KERNEL32.dll
+ 0001:0000bf60       QueryPerformanceCounter    000000018000cf60 f   kernel32:KERNEL32.dll
+ 0001:0000bf66       GetCurrentProcessId        000000018000cf66 f   kernel32:KERNEL32.dll
+ 0001:0000bf6c       GetCurrentThreadId         000000018000cf6c f   kernel32:KERNEL32.dll
+ 0001:0000bf72       GetSystemTimeAsFileTime    000000018000cf72 f   kernel32:KERNEL32.dll
+ 0001:0000bf78       DisableThreadLibraryCalls  000000018000cf78 f   kernel32:KERNEL32.dll
+ 0001:0000bf7e       InitializeSListHead        000000018000cf7e f   kernel32:KERNEL32.dll
+ 0001:0000bf84       IsDebuggerPresent          000000018000cf84 f   kernel32:KERNEL32.dll
+ 0001:0000bf8a       GetStartupInfoW            000000018000cf8a f   kernel32:KERNEL32.dll
+ 0001:0000bf90       GetModuleHandleW           000000018000cf90 f   kernel32:KERNEL32.dll
+ 0001:0000bf96       memcpy                     000000018000cf96 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000bf9c       __C_specific_handler       000000018000cf9c f   vcruntime:VCRUNTIME140.dll
+ 0001:0000bfa2       __std_type_info_destroy_list 000000018000cfa2 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000bfa8       __current_exception        000000018000cfa8 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000bfae       __current_exception_context 000000018000cfae f   vcruntime:VCRUNTIME140.dll
+ 0001:0000bfb4       memset                     000000018000cfb4 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000bfba       calloc                     000000018000cfba f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000bfc0       free                       000000018000cfc0 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000bfc6       strcmp                     000000018000cfc6 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000bfcc       strlen                     000000018000cfcc f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000bfd2       __stdio_common_vsprintf    000000018000cfd2 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:0000bfd8       malloc                     000000018000cfd8 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000bfde       _initterm                  000000018000cfde f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000bfe4       _initterm_e                000000018000cfe4 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000bfea       _seh_filter_dll            000000018000cfea f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000bff0       _configure_narrow_argv     000000018000cff0 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000bff6       _initialize_narrow_environment 000000018000cff6 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000bffc       _initialize_onexit_table   000000018000cffc f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000c002       _register_onexit_function  000000018000d002 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000c008       _execute_onexit_table      000000018000d008 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000c00e       _crt_atexit                000000018000d00e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000c014       _crt_at_quick_exit         000000018000d014 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000c01a       _cexit                     000000018000d01a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000c020       terminate                  000000018000d020 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000c028       __acrt_initialize          000000018000d028 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c028       __scrt_stub_for_acrt_initialize 000000018000d028 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c028       __vcrt_initialize          000000018000d028 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c02c       __acrt_thread_attach       000000018000d02c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c02c       __scrt_stub_for_acrt_thread_attach 000000018000d02c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c02c       __vcrt_thread_attach       000000018000d02c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c030       __acrt_thread_detach       000000018000d030 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c030       __scrt_stub_for_acrt_thread_detach 000000018000d030 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c030       __vcrt_thread_detach       000000018000d030 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c034       __acrt_uninitialize        000000018000d034 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c034       __scrt_stub_for_acrt_uninitialize 000000018000d034 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c034       __vcrt_uninitialize        000000018000d034 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c038       __acrt_uninitialize_critical 000000018000d038 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c038       __scrt_stub_for_acrt_uninitialize_critical 000000018000d038 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c038       __vcrt_uninitialize_critical 000000018000d038 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c03c       __scrt_stub_for_is_c_termination_complete 000000018000d03c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c03c       _is_c_termination_complete 000000018000d03c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000c050       _guard_dispatch_icall_nop  000000018000d050 f   MSVCRT:guard_dispatch.obj
+ 0001:0000c070       _guard_xfg_dispatch_icall_nop 000000018000d070 f   MSVCRT:guard_xfg_dispatch.obj
+ 0002:00000000       __imp_GetCurrentThreadId   000000018000e000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_IsDebuggerPresent    000000018000e008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_GetStartupInfoW      000000018000e010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_RtlCaptureContext    000000018000e018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_RtlLookupFunctionEntry 000000018000e020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_RtlVirtualUnwind     000000018000e028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_UnhandledExceptionFilter 000000018000e030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_SetUnhandledExceptionFilter 000000018000e038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_GetCurrentProcess    000000018000e040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_TerminateProcess     000000018000e048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_IsProcessorFeaturePresent 000000018000e050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_QueryPerformanceCounter 000000018000e058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_GetCurrentProcessId  000000018000e060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_InitializeSListHead  000000018000e068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_GetSystemTimeAsFileTime 000000018000e070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_DisableThreadLibraryCalls 000000018000e078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_GetModuleHandleW     000000018000e080     kernel32:KERNEL32.dll
+ 0002:00000088       \177KERNEL32_NULL_THUNK_DATA 000000018000e088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp___current_exception  000000018000e090     vcruntime:VCRUNTIME140.dll
+ 0002:00000098       __imp___std_type_info_destroy_list 000000018000e098     vcruntime:VCRUNTIME140.dll
+ 0002:000000a0       __imp___C_specific_handler 000000018000e0a0     vcruntime:VCRUNTIME140.dll
+ 0002:000000a8       __imp_memset               000000018000e0a8     vcruntime:VCRUNTIME140.dll
+ 0002:000000b0       __imp___current_exception_context 000000018000e0b0     vcruntime:VCRUNTIME140.dll
+ 0002:000000b8       __imp_memcpy               000000018000e0b8     vcruntime:VCRUNTIME140.dll
+ 0002:000000c0       \177VCRUNTIME140_NULL_THUNK_DATA 000000018000e0c0     vcruntime:VCRUNTIME140.dll
+ 0002:000000c8       __imp_calloc               000000018000e0c8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000d0       __imp_malloc               000000018000e0d0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000d8       __imp_free                 000000018000e0d8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000e0       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 000000018000e0e0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000e8       __imp__seh_filter_dll      000000018000e0e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f0       __imp__configure_narrow_argv 000000018000e0f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f8       __imp__initialize_narrow_environment 000000018000e0f8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000100       __imp__initialize_onexit_table 000000018000e100     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000108       __imp__initterm_e          000000018000e108     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000110       __imp__execute_onexit_table 000000018000e110     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000118       __imp__crt_atexit          000000018000e118     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000120       __imp__crt_at_quick_exit   000000018000e120     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000128       __imp__cexit               000000018000e128     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000130       __imp_terminate            000000018000e130     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000138       __imp__register_onexit_function 000000018000e138     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000140       __imp__initterm            000000018000e140     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000148       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 000000018000e148     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000150       __imp___stdio_common_vsprintf 000000018000e150     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000158       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 000000018000e158     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000160       __imp_strlen               000000018000e160     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000168       __imp_strcmp               000000018000e168     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000170       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 000000018000e170     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000178       __imp_emlrtMxGetLogicals   000000018000e178     libemlrt:libemlrt.dll
+ 0002:00000180       __imp_emlrtMxGetData       000000018000e180     libemlrt:libemlrt.dll
+ 0002:00000188       __imp_emlrtCheckStructR2012b 000000018000e188     libemlrt:libemlrt.dll
+ 0002:00000190       __imp_emlrtAlias           000000018000e190     libemlrt:libemlrt.dll
+ 0002:00000198       __imp_emlrtAssign          000000018000e198     libemlrt:libemlrt.dll
+ 0002:000001a0       __imp_emlrtCheckBuiltInR2012b 000000018000e1a0     libemlrt:libemlrt.dll
+ 0002:000001a8       __imp_emlrtInitCharArrayR2013a 000000018000e1a8     libemlrt:libemlrt.dll
+ 0002:000001b0       __imp_emlrtDestroyArray    000000018000e1b0     libemlrt:libemlrt.dll
+ 0002:000001b8       __imp_emlrtCreateCharArray 000000018000e1b8     libemlrt:libemlrt.dll
+ 0002:000001c0       __imp_emlrtCreateLogicalScalar 000000018000e1c0     libemlrt:libemlrt.dll
+ 0002:000001c8       __imp_emlrtCreateDoubleScalar 000000018000e1c8     libemlrt:libemlrt.dll
+ 0002:000001d0       __imp_emlrtCreateNumericMatrix 000000018000e1d0     libemlrt:libemlrt.dll
+ 0002:000001d8       __imp_emlrtGetCell         000000018000e1d8     libemlrt:libemlrt.dll
+ 0002:000001e0       __imp_emlrtSetCell         000000018000e1e0     libemlrt:libemlrt.dll
+ 0002:000001e8       __imp_emlrtCreateCellMatrix 000000018000e1e8     libemlrt:libemlrt.dll
+ 0002:000001f0       __imp_emlrtSetFieldR2017b  000000018000e1f0     libemlrt:libemlrt.dll
+ 0002:000001f8       __imp_emlrtGetFieldR2017b  000000018000e1f8     libemlrt:libemlrt.dll
+ 0002:00000200       __imp_emlrtCreateStructMatrix 000000018000e200     libemlrt:libemlrt.dll
+ 0002:00000208       __imp_emlrtCallMATLABR2012b 000000018000e208     libemlrt:libemlrt.dll
+ 0002:00000210       \177libemlrt_NULL_THUNK_DATA 000000018000e210     libemlrt:libemlrt.dll
+ 0002:00000218       __imp_mexWarnMsgTxt_800    000000018000e218     libmex:libmex.dll
+ 0002:00000220       __imp_mexIsLocked_800      000000018000e220     libmex:libmex.dll
+ 0002:00000228       __imp_mexUnlock_800        000000018000e228     libmex:libmex.dll
+ 0002:00000230       __imp_mexCallMATLAB_800    000000018000e230     libmex:libmex.dll
+ 0002:00000238       __imp_mexPrintf_800        000000018000e238     libmex:libmex.dll
+ 0002:00000240       \177libmex_NULL_THUNK_DATA 000000018000e240     libmex:libmex.dll
+ 0002:00000248       __imp_cgxertSetRuntimeInstance 000000018000e248     libmwcgxert:libmwcgxert.dll
+ 0002:00000250       __imp_cgxertGetRuntimeInstance 000000018000e250     libmwcgxert:libmwcgxert.dll
+ 0002:00000258       __imp_cgxertGetInputPortSignal 000000018000e258     libmwcgxert:libmwcgxert.dll
+ 0002:00000260       __imp_cgxertSetGcb         000000018000e260     libmwcgxert:libmwcgxert.dll
+ 0002:00000268       __imp_cgxertRestoreGcb     000000018000e268     libmwcgxert:libmwcgxert.dll
+ 0002:00000270       __imp_cgxertGetEMLRTCtx    000000018000e270     libmwcgxert:libmwcgxert.dll
+ 0002:00000278       \177libmwcgxert_NULL_THUNK_DATA 000000018000e278     libmwcgxert:libmwcgxert.dll
+ 0002:00000280       __imp_mxSetFieldByNumber_800 000000018000e280     libmx:libmx.dll
+ 0002:00000288       __imp_mxGetString_800      000000018000e288     libmx:libmx.dll
+ 0002:00000290       __imp_mxCreateDoubleScalar_800 000000018000e290     libmx:libmx.dll
+ 0002:00000298       __imp_mxCreateDoubleMatrix_800 000000018000e298     libmx:libmx.dll
+ 0002:000002a0       __imp_mxCreateNumericMatrix_800 000000018000e2a0     libmx:libmx.dll
+ 0002:000002a8       __imp_mxSetField_800       000000018000e2a8     libmx:libmx.dll
+ 0002:000002b0       __imp_mxGetPr_800          000000018000e2b0     libmx:libmx.dll
+ 0002:000002b8       __imp_mxGetN_800           000000018000e2b8     libmx:libmx.dll
+ 0002:000002c0       __imp_mxIsComplex_800      000000018000e2c0     libmx:libmx.dll
+ 0002:000002c8       __imp_mxIsChar_800         000000018000e2c8     libmx:libmx.dll
+ 0002:000002d0       __imp_mxIsNumeric_800      000000018000e2d0     libmx:libmx.dll
+ 0002:000002d8       __imp_mxGetData_800        000000018000e2d8     libmx:libmx.dll
+ 0002:000002e0       __imp_mxGetClassID_800     000000018000e2e0     libmx:libmx.dll
+ 0002:000002e8       __imp_mxGetM_800           000000018000e2e8     libmx:libmx.dll
+ 0002:000002f0       __imp_mxCalloc_800         000000018000e2f0     libmx:libmx.dll
+ 0002:000002f8       __imp_mxCreateStructMatrix_800 000000018000e2f8     libmx:libmx.dll
+ 0002:00000300       __imp_mxCreateCellMatrix_800 000000018000e300     libmx:libmx.dll
+ 0002:00000308       __imp_mxCreateString_800   000000018000e308     libmx:libmx.dll
+ 0002:00000310       __imp_mxSetCell_800        000000018000e310     libmx:libmx.dll
+ 0002:00000318       \177libmx_NULL_THUNK_DATA  000000018000e318     libmx:libmx.dll
+ 0002:00000320       __guard_check_icall_fptr   000000018000e320     MSVCRT:guard_support.obj
+ 0002:00000328       __guard_xfg_check_icall_fptr 000000018000e328     MSVCRT:guard_support.obj
+ 0002:00000330       __guard_dispatch_icall_fptr 000000018000e330     MSVCRT:guard_support.obj
+ 0002:00000338       __guard_xfg_dispatch_icall_fptr 000000018000e338     MSVCRT:guard_support.obj
+ 0002:00000340       __guard_xfg_table_dispatch_icall_fptr 000000018000e340     MSVCRT:guard_support.obj
+ 0002:00000348       __castguard_check_failure_os_handled_fptr 000000018000e348     MSVCRT:guard_support.obj
+ 0002:00000350       __guard_memcpy_fptr        000000018000e350     vcruntime:softmemtag.obj
+ 0002:00000358       __xc_a                     000000018000e358     MSVCRT:initializers.obj
+ 0002:00000360       __xc_z                     000000018000e360     MSVCRT:initializers.obj
+ 0002:00000368       __xi_a                     000000018000e368     MSVCRT:initializers.obj
+ 0002:00000370       __xi_z                     000000018000e370     MSVCRT:initializers.obj
+ 0002:00000378       __xp_a                     000000018000e378     MSVCRT:initializers.obj
+ 0002:00000380       __xp_z                     000000018000e380     MSVCRT:initializers.obj
+ 0002:00000388       __xt_a                     000000018000e388     MSVCRT:initializers.obj
+ 0002:00000390       __xt_z                     000000018000e390     MSVCRT:initializers.obj
+ 0002:00000400       __real@4054000000000000    000000018000e400     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000408       DYNAMIC_DIMENSION_DEF      000000018000e408     SSRP_A_cgxe_registry.obj
+ 0002:00000420       __real@0000000000000000    000000018000e420     SSRP_A_cgxe_registry.obj
+ 0002:00000428       __real@4010000000000000    000000018000e428     SSRP_A_cgxe_registry.obj
+ 0002:00000430       __real@41602cbca0000000    000000018000e430     SSRP_A_cgxe_registry.obj
+ 0002:00000438       __real@41b648e7f3000000    000000018000e438     SSRP_A_cgxe_registry.obj
+ 0002:00000440       __real@41c610dff9800000    000000018000e440     SSRP_A_cgxe_registry.obj
+ 0002:00000448       __real@41c618ecbb800000    000000018000e448     SSRP_A_cgxe_registry.obj
+ 0002:00000450       __real@41d06dc931c00000    000000018000e450     SSRP_A_cgxe_registry.obj
+ 0002:00000458       __real@41d43ef35b800000    000000018000e458     SSRP_A_cgxe_registry.obj
+ 0002:00000460       __real@41d771cf43800000    000000018000e460     SSRP_A_cgxe_registry.obj
+ 0002:00000468       __real@41dc67f553c00000    000000018000e468     SSRP_A_cgxe_registry.obj
+ 0002:00000470       __real@41dfd782fd800000    000000018000e470     SSRP_A_cgxe_registry.obj
+ 0002:00000478       __real@41e13401bfc00000    000000018000e478     SSRP_A_cgxe_registry.obj
+ 0002:00000480       __real@41e2069ed9a00000    000000018000e480     SSRP_A_cgxe_registry.obj
+ 0002:00000488       __real@41e26cf609200000    000000018000e488     SSRP_A_cgxe_registry.obj
+ 0002:00000490       __real@41e329d895400000    000000018000e490     SSRP_A_cgxe_registry.obj
+ 0002:00000498       __real@41e4aa6b96000000    000000018000e498     SSRP_A_cgxe_registry.obj
+ 0002:000004a0       __real@41e5b0b712600000    000000018000e4a0     SSRP_A_cgxe_registry.obj
+ 0002:000004a8       __real@41e69647f3e00000    000000018000e4a8     SSRP_A_cgxe_registry.obj
+ 0002:000004b0       __real@41ec99b65de00000    000000018000e4b0     SSRP_A_cgxe_registry.obj
+ 0002:000004b8       __real@bff0000000000000    000000018000e4b8     SSRP_A_cgxe_registry.obj
+ 0002:000004d0       _pDefaultRawDllMain        000000018000e4d0     MSVCRT:dll_dllmain.obj
+ 0002:000004d0       _pRawDllMain               000000018000e4d0     MSVCRT:dll_dllmain.obj
+ 0002:000004e0       __xmm@ffffffffffffffffffffffffffffffff 000000018000e4e0     MSVCRT:utility.obj
+ 0002:000004f0       _load_config_used          000000018000e4f0     MSVCRT:loadcfg.obj
+ 0002:00000680       __CastGuardVftablesStart   000000018000e680     MSVCRT:guard_support.obj
+ 0002:00000700       __CastGuardVftablesEnd     000000018000e700     MSVCRT:guard_support.obj
+ 0002:00000780       __volatile_metadata        000000018000e780     <linker-defined>
+ 0002:00000b38       __rtc_iaa                  000000018000eb38     MSVCRT:initsect.obj
+ 0002:00000b40       __rtc_izz                  000000018000eb40     MSVCRT:initsect.obj
+ 0002:00000b48       __rtc_taa                  000000018000eb48     MSVCRT:initsect.obj
+ 0002:00000b50       __rtc_tzz                  000000018000eb50     MSVCRT:initsect.obj
+ 0002:000013f8       __IMPORT_DESCRIPTOR_libmx  000000018000f3f8     libmx:libmx.dll
+ 0002:0000140c       __IMPORT_DESCRIPTOR_libmex 000000018000f40c     libmex:libmex.dll
+ 0002:00001420       __IMPORT_DESCRIPTOR_libemlrt 000000018000f420     libemlrt:libemlrt.dll
+ 0002:00001434       __IMPORT_DESCRIPTOR_libmwcgxert 000000018000f434     libmwcgxert:libmwcgxert.dll
+ 0002:00001448       __IMPORT_DESCRIPTOR_KERNEL32 000000018000f448     kernel32:KERNEL32.dll
+ 0002:0000145c       __IMPORT_DESCRIPTOR_VCRUNTIME140 000000018000f45c     vcruntime:VCRUNTIME140.dll
+ 0002:00001470       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 000000018000f470     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00001484       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 000000018000f484     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00001498       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 000000018000f498     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000014ac       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 000000018000f4ac     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000014c0       __NULL_IMPORT_DESCRIPTOR   000000018000f4c0     libmx:libmx.dll
+ 0003:00000610       DYNAMIC_DIMENSION          0000000180011610     SSRP_A_cgxe_registry.obj
+ 0003:00002830       __security_cookie_complement 0000000180013830     MSVCRT:gs_cookie.obj
+ 0003:00002838       __security_cookie          0000000180013838     MSVCRT:gs_cookie.obj
+ 0003:00002840       _fltused                   0000000180013840     MSVCRT:fltused.obj
+ 0003:00002844       __scrt_native_dllmain_reason 0000000180013844     MSVCRT:utility.obj
+ 0003:00002848       __isa_available            0000000180013848     MSVCRT:cpu_disp.obj
+ 0003:0000284c       __isa_enabled              000000018001384c     MSVCRT:cpu_disp.obj
+ 0003:00002850       __memset_fast_string_threshold 0000000180013850     MSVCRT:cpu_disp.obj
+ 0003:00002858       __memset_nt_threshold      0000000180013858     MSVCRT:cpu_disp.obj
+ 0003:00002860       __scrt_ucrt_dll_is_in_use  0000000180013860     MSVCRT:ucrt_stubs.obj
+ 0003:00002e00       ?__type_info_root_node@@3U__type_info_node@@A 0000000180013e00     MSVCRT:tncleanup.obj
+ 0003:00002e10       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 0000000180013e10     MSVCRT:default_local_stdio_options.obj
+ 0003:00002e18       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 0000000180013e18     MSVCRT:default_local_stdio_options.obj
+ 0003:00002e20       __scrt_current_native_startup_state 0000000180013e20     MSVCRT:utility.obj
+ 0003:00002e28       __scrt_native_startup_lock 0000000180013e28     MSVCRT:utility.obj
+ 0003:00002e68       __scrt_debugger_hook_flag  0000000180013e68     MSVCRT:utility_desktop.obj
+ 0003:00002e70       __castguard_check_failure_user_handled_fptr 0000000180013e70     MSVCRT:guard_support.obj
+ 0003:00002e78       __favor                    0000000180013e78     MSVCRT:cpu_disp.obj
+ 0003:00002e80       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 0000000180013e80     <common>
+ 0003:00002e88       __dyn_tls_init_callback    0000000180013e88     <common>
+
+ entry point at        0001:0000b210
+
+ Static symbols
+
+ 0000:00000000       .debug$S                   0000000180000000     SSRP_A_cgxe.exp
+ 0000:00000000       _volmd                     0000000180000000     SSRP_A_cgxe_registry.obj
+ 0000:00000000       _volmd                     0000000180000000     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:cpu_disp.obj
+ 0002:ffff2000       __guard_ehcont_?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180000000     MSVCRT:dll_dllmain.obj
+ 0002:ffff2000       __guard_fids_?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180000000     MSVCRT:dll_dllmain.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:gs_report.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:gs_report.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:gs_report.obj
+ 0002:ffff2000       __guard_fids__             0000000180000000     MSVCRT:guard_support.obj
+ 0002:ffff2000       __guard_fids__             0000000180000000     MSVCRT:guard_support.obj
+ 0002:ffff2000       __guard_fids__guard_icall_checks_enforced 0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0002:ffff2000       __guard_ehcont___scrt_is_nonwritable_in_current_image 0000000180000000     MSVCRT:utility.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:utility.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:utility.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:utility.obj
+ 0002:ffff2000       __guard_fids___scrt_set_unhandled_exception_filter 0000000180000000     MSVCRT:utility_desktop.obj
+ 0000:00000000       _volmd                     0000000180000000     MSVCRT:utility_desktop.obj
+ 0002:ffff2000       __guard_fids__             0000000180000000     vcruntime:softmemtag.obj
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000010       _volmd                     0000000180000010     SSRP_A_cgxe_registry.obj
+ 0000:00000010       _volmd                     0000000180000010     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0000:00000020       _volmd                     0000000180000020     SSRP_A_cgxe_registry.obj
+ 0000:00000020       _volmd                     0000000180000020     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0000:00000030       _volmd                     0000000180000030     SSRP_A_cgxe_registry.obj
+ 0000:00000040       _volmd                     0000000180000040     SSRP_A_cgxe_registry.obj
+ 0000:00000050       _volmd                     0000000180000050     SSRP_A_cgxe_registry.obj
+ 0000:00000060       _volmd                     0000000180000060     SSRP_A_cgxe_registry.obj
+ 0000:00000070       _volmd                     0000000180000070     SSRP_A_cgxe_registry.obj
+ 0000:00000080       _volmd                     0000000180000080     SSRP_A_cgxe_registry.obj
+ 0000:00000090       _volmd                     0000000180000090     SSRP_A_cgxe_registry.obj
+ 0000:000000a0       _volmd                     00000001800000a0     SSRP_A_cgxe_registry.obj
+ 0000:000000b0       _volmd                     00000001800000b0     SSRP_A_cgxe_registry.obj
+ 0000:000000c0       _volmd                     00000001800000c0     SSRP_A_cgxe_registry.obj
+ 0000:000000d0       _volmd                     00000001800000d0     SSRP_A_cgxe_registry.obj
+ 0000:000000e0       _volmd                     00000001800000e0     SSRP_A_cgxe_registry.obj
+ 0001:00000160       cgxe_mdl_start             0000000180001160 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:000001f0       cgxe_mdl_initialize        00000001800011f0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00000270       cgxe_mdl_outputs           0000000180001270 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:000002f0       cgxe_mdl_update            00000001800012f0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00000300       cgxe_mdl_enable            0000000180001300 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00000310       cgxe_mdl_disable           0000000180001310 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00000320       cgxe_mdl_terminate         0000000180001320 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00000370       mw__internal__call__setup  0000000180001370 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00000460       SystemCore_setup           0000000180001460 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00000850       mw__internal__call__reset  0000000180001850 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00000ba0       mw__internal__call__step   0000000180001ba0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00000f60       emlrt_marshallOut          0000000180001f60 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:000010b0       cgxe_mdl_get_sim_state     00000001800020b0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:000010f0       emlrt_marshallIn           00000001800020f0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:000011c0       b_emlrt_marshallIn         00000001800021c0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001230       c_emlrt_marshallIn         0000000180002230 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001310       d_emlrt_marshallIn         0000000180002310 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001360       e_emlrt_marshallIn         0000000180002360 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:000013d0       f_emlrt_marshallIn         00000001800023d0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001420       cgxe_mdl_set_sim_state     0000000180002420 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001490       message                    0000000180002490 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001530       getString                  0000000180002530 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:000015a0       error                      00000001800025a0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001630       warning                    0000000180002630 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:000016a0       g_emlrt_marshallIn         00000001800026a0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001710       h_emlrt_marshallIn         0000000180002710 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001790       init_simulink_io_address   0000000180002790 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:000017e0       mdlOutputs_5xTZ4YsU7u7BGsF2q9qRzE 00000001800027e0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001820       mdlInitialize_5xTZ4YsU7u7BGsF2q9qRzE 0000000180002820 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001850       mdlUpdate_5xTZ4YsU7u7BGsF2q9qRzE 0000000180002850 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001890       getSimState_5xTZ4YsU7u7BGsF2q9qRzE 0000000180002890 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:000018d0       setSimState_5xTZ4YsU7u7BGsF2q9qRzE 00000001800028d0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001910       mdlTerminate_5xTZ4YsU7u7BGsF2q9qRzE 0000000180002910 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001950       mdlEnable_5xTZ4YsU7u7BGsF2q9qRzE 0000000180002950 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001980       mdlDisable_5xTZ4YsU7u7BGsF2q9qRzE 0000000180002980 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:000019b0       mdlStart_5xTZ4YsU7u7BGsF2q9qRzE 00000001800029b0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00001ab0       mdlProcessParameters_5xTZ4YsU7u7BGsF2q9qRzE 0000000180002ab0 f   m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0001:00003a7c       $LN147                     0000000180004a7c     SSRP_A_cgxe_registry.obj
+ 0001:000048e4       $LN22                      00000001800058e4     SSRP_A_cgxe_registry.obj
+ 0001:00004fe4       $LN26                      0000000180005fe4     SSRP_A_cgxe_registry.obj
+ 0001:000056c4       $LN24                      00000001800066c4     SSRP_A_cgxe_registry.obj
+ 0001:000063fc       $LN30                      00000001800073fc     SSRP_A_cgxe_registry.obj
+ 0001:00008de0       mdlStart                   0000000180009de0 f   SSRP_A_cgxe_registry.obj
+ 0001:00008e20       mdlInitializeConditions    0000000180009e20 f   SSRP_A_cgxe_registry.obj
+ 0001:00008e40       mdlUpdate                  0000000180009e40 f   SSRP_A_cgxe_registry.obj
+ 0001:00008e70       mdlOutputs                 0000000180009e70 f   SSRP_A_cgxe_registry.obj
+ 0001:00008ea0       mdlTerminate               0000000180009ea0 f   SSRP_A_cgxe_registry.obj
+ 0001:00008ec0       mdlInitializeSizes         0000000180009ec0 f   SSRP_A_cgxe_registry.obj
+ 0001:00008ed0       mdlInitializeSampleTimes   0000000180009ed0 f   SSRP_A_cgxe_registry.obj
+ 0001:00008ee0       cgxe_get_supported_modules 0000000180009ee0 f   SSRP_A_cgxe_registry.obj
+ 0001:00008fb0       cgxe_process_get_checksums 0000000180009fb0 f   SSRP_A_cgxe_registry.obj
+ 0001:00009340       cgxe_mex_unlock_call       000000018000a340 f   SSRP_A_cgxe_registry.obj
+ 0001:00009380       cgxe_unpack_simstruct      000000018000a380 f   SSRP_A_cgxe_registry.obj
+ 0001:00009420       cgxe_get_sim_state         000000018000a420 f   SSRP_A_cgxe_registry.obj
+ 0001:00009490       cgxe_set_sim_state         000000018000a490 f   SSRP_A_cgxe_registry.obj
+ 0001:00009510       cgxe_get_BuildInfoUpdate   000000018000a510 f   SSRP_A_cgxe_registry.obj
+ 0001:000095e0       cgxe_get_fallback_info     000000018000a5e0 f   SSRP_A_cgxe_registry.obj
+ 0001:000096b0       ProcessMexSfunctionCmdLineCall 000000018000a6b0 f   SSRP_A_cgxe_registry.obj
+ 0001:000098e0       mdlZeroCrossings           000000018000a8e0 f   SSRP_A_cgxe_registry.obj
+ 0001:00009930       mdlGetTimeOfNextVarHit     000000018000a930 f   SSRP_A_cgxe_registry.obj
+ 0001:00009980       _RegNumInputPortsCB        000000018000a980 f   SSRP_A_cgxe_registry.obj
+ 0001:00009a00       _RegNumOutputPortsCB       000000018000aa00 f   SSRP_A_cgxe_registry.obj
+ 0001:00009a80       _CreateSimStruct           000000018000aa80 f   SSRP_A_cgxe_registry.obj
+ 0001:00009cb0       _ProcessMexSfunctionCmdLineCall 000000018000acb0 f   SSRP_A_cgxe_registry.obj
+ 0001:0000a640       ReportIndexOutOfBoundsError 000000018000b640 f   SSRP_A_cgxe_registry.obj
+ 0001:0000aaf0       $$000000                   000000018000baf0     MSVCRT:amdsecgs.obj
+ 0001:0000ade8       capture_current_context    000000018000bde8 f   MSVCRT:gs_report.obj
+ 0001:0000ae58       capture_previous_context   000000018000be58 f   MSVCRT:gs_report.obj
+ 0001:0000aecc       ?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000becc f   MSVCRT:dll_dllmain.obj
+ 0001:0000af1c       ?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018000bf1c f   MSVCRT:dll_dllmain.obj
+ 0001:0000b034       ?dllmain_crt_process_detach@@YAH_N@Z 000000018000c034 f   MSVCRT:dll_dllmain.obj
+ 0001:0000b0b8       ?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000c0b8 f   MSVCRT:dll_dllmain.obj
+ 0001:0000b1ec       ?dllmain_raw@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000c1ec f   MSVCRT:dll_dllmain.obj
+ 0001:0000b250       __get_entropy              000000018000c250 f   MSVCRT:gs_support.obj
+ 0001:0000b3e0       ?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z 000000018000c3e0 f   MSVCRT:utility.obj
+ 0001:0000b434       ?is_potentially_valid_image_base@@YA_NQEAX@Z 000000018000c434 f   MSVCRT:utility.obj
+ 0001:0000bb7c       __castguard_check_failure_os_handled_wrapper 000000018000cb7c f   MSVCRT:guard_support.obj
+ 0001:0000bbd4       __castguard_check_failure_user_handled_wrapper 000000018000cbd4 f   MSVCRT:guard_support.obj
+ 0001:0000bbf0       __castguard_compat_check   000000018000cbf0 f   MSVCRT:guard_support.obj
+ 0001:0000bd34       __castguard_slow_path_compat_check 000000018000cd34 f   MSVCRT:guard_support.obj
+ 0001:0000c040       $$000000                   000000018000d040     MSVCRT:guard_dispatch.obj
+ 0001:0000c060       $$000000                   000000018000d060     MSVCRT:guard_xfg_dispatch.obj
+ 0001:0000c076       ?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018000d076 f   MSVCRT:dll_dllmain.obj
+ 0001:0000c08d       ?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000d08d f   MSVCRT:dll_dllmain.obj
+ 0001:0000c0a6       ?fin$1@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000d0a6 f   MSVCRT:dll_dllmain.obj
+ 0001:0000c0ba       ?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018000d0ba f   MSVCRT:dll_dllmain.obj
+ 0001:0000c0f0       __scrt_is_nonwritable_in_current_image$filt$0 000000018000d0f0 f   MSVCRT:utility.obj
+ 0002:000003a0       ?iv@?1??SystemCore_setup@@9@9 000000018000e3a0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:000003a8       ?iv1@?1??SystemCore_setup@@9@9 000000018000e3a8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:000003b0       ?iv2@?1??SystemCore_setup@@9@9 000000018000e3b0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:000003b8       ?iv3@?1??SystemCore_setup@@9@9 000000018000e3b8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:000003c0       ?iv@?1??mw__internal__call__reset@@9@9 000000018000e3c0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:000003c8       ?iv1@?1??mw__internal__call__reset@@9@9 000000018000e3c8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:000003d0       ?iv2@?1??mw__internal__call__reset@@9@9 000000018000e3d0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:000003d8       ?iv@?1??mw__internal__call__step@@9@9 000000018000e3d8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:000003e0       ?iv1@?1??mw__internal__call__step@@9@9 000000018000e3e0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:000003e8       ?iv2@?1??mw__internal__call__step@@9@9 000000018000e3e8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:000003f0       ?dims@?1??c_emlrt_marshallIn@@9@9 000000018000e3f0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:000003f4       ?dims@?1??g_emlrt_marshallIn@@9@9 000000018000e3f4     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:000003f8       ?dims@?1??h_emlrt_marshallIn@@9@9 000000018000e3f8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:000004c0       GS_ExceptionPointers       000000018000e4c0     MSVCRT:gs_report.obj
+ 0002:00000b58       $unwind$cgxe_SSRP_A_method_dispatcher 000000018000eb58     SSRP_A_cgxe.obj
+ 0002:00000b60       $unwind$method_dispatcher_5xTZ4YsU7u7BGsF2q9qRzE 000000018000eb60     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000b68       $unwind$cgxe_mdl_start     000000018000eb68     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000b70       $unwind$cgxe_mdl_initialize 000000018000eb70     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000b78       $unwind$cgxe_mdl_outputs   000000018000eb78     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000b80       $unwind$cgxe_mdl_terminate 000000018000eb80     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000b88       $unwind$mw__internal__call__setup 000000018000eb88     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000b90       $unwind$SystemCore_setup   000000018000eb90     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000ba0       $unwind$mw__internal__call__reset 000000018000eba0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000bb0       $unwind$mw__internal__call__step 000000018000ebb0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000bc0       $unwind$emlrt_marshallOut  000000018000ebc0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000bc8       $unwind$cgxe_mdl_get_sim_state 000000018000ebc8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000bd0       $unwind$emlrt_marshallIn   000000018000ebd0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000bd8       $unwind$b_emlrt_marshallIn 000000018000ebd8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000be0       $unwind$c_emlrt_marshallIn 000000018000ebe0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000be8       $unwind$d_emlrt_marshallIn 000000018000ebe8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000bf0       $unwind$e_emlrt_marshallIn 000000018000ebf0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000bf8       $unwind$f_emlrt_marshallIn 000000018000ebf8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c00       $unwind$cgxe_mdl_set_sim_state 000000018000ec00     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c08       $unwind$message            000000018000ec08     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c10       $unwind$getString          000000018000ec10     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c18       $unwind$error              000000018000ec18     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c20       $unwind$warning            000000018000ec20     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c28       $unwind$g_emlrt_marshallIn 000000018000ec28     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c30       $unwind$h_emlrt_marshallIn 000000018000ec30     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c38       $unwind$init_simulink_io_address 000000018000ec38     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c40       $unwind$mdlOutputs_5xTZ4YsU7u7BGsF2q9qRzE 000000018000ec40     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c48       $unwind$mdlInitialize_5xTZ4YsU7u7BGsF2q9qRzE 000000018000ec48     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c50       $unwind$mdlUpdate_5xTZ4YsU7u7BGsF2q9qRzE 000000018000ec50     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c58       $unwind$getSimState_5xTZ4YsU7u7BGsF2q9qRzE 000000018000ec58     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c60       $unwind$setSimState_5xTZ4YsU7u7BGsF2q9qRzE 000000018000ec60     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c68       $unwind$mdlTerminate_5xTZ4YsU7u7BGsF2q9qRzE 000000018000ec68     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c70       $unwind$mdlEnable_5xTZ4YsU7u7BGsF2q9qRzE 000000018000ec70     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c78       $unwind$mdlDisable_5xTZ4YsU7u7BGsF2q9qRzE 000000018000ec78     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c80       $unwind$mdlStart_5xTZ4YsU7u7BGsF2q9qRzE 000000018000ec80     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c88       $unwind$cgxe_5xTZ4YsU7u7BGsF2q9qRzE_BuildInfoUpdate 000000018000ec88     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c90       $unwind$cgxe_5xTZ4YsU7u7BGsF2q9qRzE_fallback_info 000000018000ec90     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0002:00000c98       $unwind$_vsnprintf_l       000000018000ec98     SSRP_A_cgxe_registry.obj
+ 0002:00000ca0       $unwind$_vsprintf_l        000000018000eca0     SSRP_A_cgxe_registry.obj
+ 0002:00000ca8       $unwind$sprintf            000000018000eca8     SSRP_A_cgxe_registry.obj
+ 0002:00000cb0       $unwind$mexFunction        000000018000ecb0     SSRP_A_cgxe_registry.obj
+ 0002:00000cc0       $unwind$_ssSetInputPortDirectFeedThroughFcn 000000018000ecc0     SSRP_A_cgxe_registry.obj
+ 0002:00000cd0       $unwind$_ssSetRWorkValueFcn 000000018000ecd0     SSRP_A_cgxe_registry.obj
+ 0002:00000cd8       $unwind$_ssGetRWorkValueFcn 000000018000ecd8     SSRP_A_cgxe_registry.obj
+ 0002:00000ce0       $unwind$_ssSetIWorkValueFcn 000000018000ece0     SSRP_A_cgxe_registry.obj
+ 0002:00000ce8       $unwind$_ssGetIWorkValueFcn 000000018000ece8     SSRP_A_cgxe_registry.obj
+ 0002:00000cf0       $unwind$_ssSetPWorkValueFcn 000000018000ecf0     SSRP_A_cgxe_registry.obj
+ 0002:00000cf8       $unwind$_ssGetPWorkValueFcn 000000018000ecf8     SSRP_A_cgxe_registry.obj
+ 0002:00000d00       $unwind$_ssGetInputPortSignalFcn 000000018000ed00     SSRP_A_cgxe_registry.obj
+ 0002:00000d10       $unwind$_ssGetInputPortBufferDstPortFcn 000000018000ed10     SSRP_A_cgxe_registry.obj
+ 0002:00000d18       $unwind$_ssGetInputPortSignalPtrsFcn 000000018000ed18     SSRP_A_cgxe_registry.obj
+ 0002:00000d28       $unwind$ssGetParameterTuningCompliance 000000018000ed28     SSRP_A_cgxe_registry.obj
+ 0002:00000d30       $unwind$_ssReadInputStringFcn 000000018000ed30     SSRP_A_cgxe_registry.obj
+ 0002:00000d38       $unwind$ssGetDTypeIdFromMxArray 000000018000ed38     SSRP_A_cgxe_registry.obj
+ 0002:00000d40       $unwind$ssWriteRTWMx2dMatParam 000000018000ed40     SSRP_A_cgxe_registry.obj
+ 0002:00000d48       $unwind$ssWriteRTWMxVectParam 000000018000ed48     SSRP_A_cgxe_registry.obj
+ 0002:00000d50       $unwind$ssWriteRTWParameters 000000018000ed50     SSRP_A_cgxe_registry.obj
+ 0002:00000d58       $unwind$ssWriteRTWParamSettings 000000018000ed58     SSRP_A_cgxe_registry.obj
+ 0002:00000d60       $unwind$ssWriteRTWStr      000000018000ed60     SSRP_A_cgxe_registry.obj
+ 0002:00000d68       $unwind$ssWriteRTWWorkVect 000000018000ed68     SSRP_A_cgxe_registry.obj
+ 0002:00000d7c       $unwind$ssWarning          000000018000ed7c     SSRP_A_cgxe_registry.obj
+ 0002:00000d90       $unwind$ssGetRootSS        000000018000ed90     SSRP_A_cgxe_registry.obj
+ 0002:00000d98       $unwind$ssGetParentSS      000000018000ed98     SSRP_A_cgxe_registry.obj
+ 0002:00000da0       $unwind$ssWriteRTWNameValuePair 000000018000eda0     SSRP_A_cgxe_registry.obj
+ 0002:00000da8       $unwind$_ssSetInputPortMatrixDimensions 000000018000eda8     SSRP_A_cgxe_registry.obj
+ 0002:00000db4       $unwind$_ssSetOutputPortMatrixDimensions 000000018000edb4     SSRP_A_cgxe_registry.obj
+ 0002:00000dc0       $unwind$_ssSetInputPortVectorDimension 000000018000edc0     SSRP_A_cgxe_registry.obj
+ 0002:00000dcc       $unwind$_ssSetOutputPortVectorDimension 000000018000edcc     SSRP_A_cgxe_registry.obj
+ 0002:00000dd8       $unwind$ssIsRunTimeParamTunable 000000018000edd8     SSRP_A_cgxe_registry.obj
+ 0002:00000de0       $unwind$ssGetSFuncBlockHandle 000000018000ede0     SSRP_A_cgxe_registry.obj
+ 0002:00000de8       $unwind$_ssGetCallSystemNumFcnCallDestinations 000000018000ede8     SSRP_A_cgxe_registry.obj
+ 0002:00000df0       $unwind$_ssGetCurrentInputPortWidth 000000018000edf0     SSRP_A_cgxe_registry.obj
+ 0002:00000df8       $unwind$_ssGetCurrentOutputPortWidth 000000018000edf8     SSRP_A_cgxe_registry.obj
+ 0002:00000e00       $unwind$ssGetIsZeroCrossControlDisabled 000000018000ee00     SSRP_A_cgxe_registry.obj
+ 0002:00000e08       $unwind$ssSetIsInputPortUsedForContZcSignal 000000018000ee08     SSRP_A_cgxe_registry.obj
+ 0002:00000e10       $unwind$ssSetZcSignalIsZcElementDisc 000000018000ee10     SSRP_A_cgxe_registry.obj
+ 0002:00000e20       $unwind$ssSetZcSignalName  000000018000ee20     SSRP_A_cgxe_registry.obj
+ 0002:00000e28       $unwind$ssSetZcSignalWidth 000000018000ee28     SSRP_A_cgxe_registry.obj
+ 0002:00000e30       $unwind$ssSetZcSignalZcEventType 000000018000ee30     SSRP_A_cgxe_registry.obj
+ 0002:00000e38       $unwind$ssSetZcSignalType  000000018000ee38     SSRP_A_cgxe_registry.obj
+ 0002:00000e40       $unwind$ssSetZcSignalZcTol 000000018000ee40     SSRP_A_cgxe_registry.obj
+ 0002:00000e48       $unwind$ssSetZcSignalNeedsEventNotification 000000018000ee48     SSRP_A_cgxe_registry.obj
+ 0002:00000e50       $unwind$ssCreateAndAddZcSignalInfo 000000018000ee50     SSRP_A_cgxe_registry.obj
+ 0002:00000e58       $unwind$ssCloneAndAddZcSignalInfo 000000018000ee58     SSRP_A_cgxe_registry.obj
+ 0002:00000e60       $unwind$ssGetNumZcSignals  000000018000ee60     SSRP_A_cgxe_registry.obj
+ 0002:00000e68       $unwind$ssGetZcSignalVector 000000018000ee68     SSRP_A_cgxe_registry.obj
+ 0002:00000e70       $unwind$ssGetZcSignalName  000000018000ee70     SSRP_A_cgxe_registry.obj
+ 0002:00000e78       $unwind$ssGetZcSignalWidth 000000018000ee78     SSRP_A_cgxe_registry.obj
+ 0002:00000e80       $unwind$ssGetZcSignalZcEventType 000000018000ee80     SSRP_A_cgxe_registry.obj
+ 0002:00000e88       $unwind$ssGetZcSignalZcEvents 000000018000ee88     SSRP_A_cgxe_registry.obj
+ 0002:00000e90       $unwind$ssGetZcSignalType  000000018000ee90     SSRP_A_cgxe_registry.obj
+ 0002:00000e98       $unwind$ssGetZcSignalZcTol 000000018000ee98     SSRP_A_cgxe_registry.obj
+ 0002:00000ea0       $unwind$ssGetZcSignalNeedsEventNotification 000000018000eea0     SSRP_A_cgxe_registry.obj
+ 0002:00000ea8       $unwind$ssGetZcSignalIsZcElementDisc 000000018000eea8     SSRP_A_cgxe_registry.obj
+ 0002:00000eb8       $unwind$ssGetIsInputPortElementContinuous 000000018000eeb8     SSRP_A_cgxe_registry.obj
+ 0002:00000ec8       $unwind$_ssGetAbsTol       000000018000eec8     SSRP_A_cgxe_registry.obj
+ 0002:00000ed0       $unwind$_ssSetInputPortReusableFcn 000000018000eed0     SSRP_A_cgxe_registry.obj
+ 0002:00000ed8       $unwind$_ssSetOutputPortReusableFcn 000000018000eed8     SSRP_A_cgxe_registry.obj
+ 0002:00000ee0       $unwind$_ssSetSymbolicDimsSupport 000000018000eee0     SSRP_A_cgxe_registry.obj
+ 0002:00000ee8       $unwind$_ssRegisterSymbolicDimsExpr 000000018000eee8     SSRP_A_cgxe_registry.obj
+ 0002:00000ef0       $unwind$_ssRegisterSymbolicDimsMATLABExpr 000000018000eef0     SSRP_A_cgxe_registry.obj
+ 0002:00000ef8       $unwind$_ssRegisterSymbolicDims 000000018000eef8     SSRP_A_cgxe_registry.obj
+ 0002:00000f00       $unwind$_ssRegisterSymbolicDimsString 000000018000ef00     SSRP_A_cgxe_registry.obj
+ 0002:00000f08       $unwind$_ssRegisterSymbolicDimsIntValue 000000018000ef08     SSRP_A_cgxe_registry.obj
+ 0002:00000f10       $unwind$_ssRegisterSymbolicEqualRelation 000000018000ef10     SSRP_A_cgxe_registry.obj
+ 0002:00000f18       $unwind$_ssRegisterSymbolicEqualValue 000000018000ef18     SSRP_A_cgxe_registry.obj
+ 0002:00000f20       $unwind$_ssAmendLeadingSymbolicDims 000000018000ef20     SSRP_A_cgxe_registry.obj
+ 0002:00000f28       $unwind$_ssAmendTrailingSymbolicDims 000000018000ef28     SSRP_A_cgxe_registry.obj
+ 0002:00000f30       $unwind$_ssRegisterSymbolicDimsPlus 000000018000ef30     SSRP_A_cgxe_registry.obj
+ 0002:00000f38       $unwind$_ssRegisterSymbolicDimsMinus 000000018000ef38     SSRP_A_cgxe_registry.obj
+ 0002:00000f40       $unwind$_ssRegisterSymbolicDimsMultiply 000000018000ef40     SSRP_A_cgxe_registry.obj
+ 0002:00000f48       $unwind$_ssRegisterSymbolicDimsDivide 000000018000ef48     SSRP_A_cgxe_registry.obj
+ 0002:00000f50       $unwind$_ssGetNumSymbolicDims 000000018000ef50     SSRP_A_cgxe_registry.obj
+ 0002:00000f58       $unwind$_ssGetSymbolicDim  000000018000ef58     SSRP_A_cgxe_registry.obj
+ 0002:00000f60       $unwind$_ssSetInputPortSymbolicDimsId 000000018000ef60     SSRP_A_cgxe_registry.obj
+ 0002:00000f68       $unwind$_ssGetCompInputPortSymbolicDimsId 000000018000ef68     SSRP_A_cgxe_registry.obj
+ 0002:00000f70       $unwind$_ssSetCompInputPortSymbolicDimsId 000000018000ef70     SSRP_A_cgxe_registry.obj
+ 0002:00000f78       $unwind$_ssSetOutputPortSymbolicDimsId 000000018000ef78     SSRP_A_cgxe_registry.obj
+ 0002:00000f80       $unwind$_ssGetCompOutputPortSymbolicDimsId 000000018000ef80     SSRP_A_cgxe_registry.obj
+ 0002:00000f88       $unwind$_ssSetCompOutputPortSymbolicDimsId 000000018000ef88     SSRP_A_cgxe_registry.obj
+ 0002:00000f90       $unwind$_ssGetDWorkSymbolicDimsId 000000018000ef90     SSRP_A_cgxe_registry.obj
+ 0002:00000f98       $unwind$_ssSetDWorkSymbolicDimsId 000000018000ef98     SSRP_A_cgxe_registry.obj
+ 0002:00000fa0       $unwind$_ssGetCompDWorkSymbolicDimsId 000000018000efa0     SSRP_A_cgxe_registry.obj
+ 0002:00000fa8       $unwind$_ssSetCompDWorkSymbolicDimsId 000000018000efa8     SSRP_A_cgxe_registry.obj
+ 0002:00000fb0       $unwind$_ssCreateSLCGStringBuffer 000000018000efb0     SSRP_A_cgxe_registry.obj
+ 0002:00000fb8       $unwind$_ssAddToSLCGStringBuffer 000000018000efb8     SSRP_A_cgxe_registry.obj
+ 0002:00000fc0       $unwind$_ssGetPointerContainedData 000000018000efc0     SSRP_A_cgxe_registry.obj
+ 0002:00000fc8       $unwind$_ssGetPointerContainedDataWidth 000000018000efc8     SSRP_A_cgxe_registry.obj
+ 0002:00000fd0       $unwind$_ssRegisterDynamicArrayDataTypeFcn 000000018000efd0     SSRP_A_cgxe_registry.obj
+ 0002:00000fd8       $unwind$_ssGetDynamicArrayContainedDataCurrentWidthFcn 000000018000efd8     SSRP_A_cgxe_registry.obj
+ 0002:00000fe0       $unwind$_ssGetDynamicArrayContainedDataFcn 000000018000efe0     SSRP_A_cgxe_registry.obj
+ 0002:00000fe8       $unwind$_ssGetInputPortDynamicArrayDataFcn 000000018000efe8     SSRP_A_cgxe_registry.obj
+ 0002:00000ff0       $unwind$_ssGetOutputPortDynamicArrayDataFcn 000000018000eff0     SSRP_A_cgxe_registry.obj
+ 0002:00000ff8       $unwind$_ssGetInputPortDynamicArrayContainedDataFcn 000000018000eff8     SSRP_A_cgxe_registry.obj
+ 0002:00001000       $unwind$_ssGetOutputPortDynamicArrayContainedDataFcn 000000018000f000     SSRP_A_cgxe_registry.obj
+ 0002:00001008       $unwind$_ssGetDynamicArrayDWorkContainedDataFcn 000000018000f008     SSRP_A_cgxe_registry.obj
+ 0002:00001010       $unwind$mdlStart           000000018000f010     SSRP_A_cgxe_registry.obj
+ 0002:00001018       $unwind$mdlInitializeConditions 000000018000f018     SSRP_A_cgxe_registry.obj
+ 0002:00001020       $unwind$mdlUpdate          000000018000f020     SSRP_A_cgxe_registry.obj
+ 0002:00001028       $unwind$mdlOutputs         000000018000f028     SSRP_A_cgxe_registry.obj
+ 0002:00001030       $unwind$mdlTerminate       000000018000f030     SSRP_A_cgxe_registry.obj
+ 0002:00001038       $unwind$cgxe_get_supported_modules 000000018000f038     SSRP_A_cgxe_registry.obj
+ 0002:00001040       $unwind$cgxe_process_get_checksums 000000018000f040     SSRP_A_cgxe_registry.obj
+ 0002:00001050       $unwind$cgxe_mex_unlock_call 000000018000f050     SSRP_A_cgxe_registry.obj
+ 0002:00001058       $unwind$cgxe_unpack_simstruct 000000018000f058     SSRP_A_cgxe_registry.obj
+ 0002:00001060       $unwind$cgxe_get_sim_state 000000018000f060     SSRP_A_cgxe_registry.obj
+ 0002:00001068       $unwind$cgxe_set_sim_state 000000018000f068     SSRP_A_cgxe_registry.obj
+ 0002:00001070       $unwind$cgxe_get_BuildInfoUpdate 000000018000f070     SSRP_A_cgxe_registry.obj
+ 0002:00001080       $unwind$cgxe_get_fallback_info 000000018000f080     SSRP_A_cgxe_registry.obj
+ 0002:00001090       $unwind$ProcessMexSfunctionCmdLineCall 000000018000f090     SSRP_A_cgxe_registry.obj
+ 0002:000010a0       $unwind$_RegNumInputPortsCB 000000018000f0a0     SSRP_A_cgxe_registry.obj
+ 0002:000010a8       $unwind$_RegNumOutputPortsCB 000000018000f0a8     SSRP_A_cgxe_registry.obj
+ 0002:000010b0       $unwind$_CreateSimStruct   000000018000f0b0     SSRP_A_cgxe_registry.obj
+ 0002:000010b8       $unwind$_ProcessMexSfunctionCmdLineCall 000000018000f0b8     SSRP_A_cgxe_registry.obj
+ 0002:000010c8       $unwind$ReportIndexOutOfBoundsError 000000018000f0c8     SSRP_A_cgxe_registry.obj
+ 0002:000010d8       $unwind$__GSHandlerCheckCommon 000000018000f0d8     MSVCRT:gshandler.obj
+ 0002:000010e0       $unwind$__GSHandlerCheck   000000018000f0e0     MSVCRT:gshandler.obj
+ 0002:000010e8       $xdatasym                  000000018000f0e8     MSVCRT:amdsecgs.obj
+ 0002:000010ec       $unwind$__report_securityfailure 000000018000f0ec     MSVCRT:gs_report.obj
+ 0002:000010f4       $unwind$__report_securityfailureEx 000000018000f0f4     MSVCRT:gs_report.obj
+ 0002:000010fc       $unwind$__report_rangecheckfailure 000000018000f0fc     MSVCRT:gs_report.obj
+ 0002:00001104       $unwind$__report_gsfailure 000000018000f104     MSVCRT:gs_report.obj
+ 0002:0000110c       $unwind$capture_current_context 000000018000f10c     MSVCRT:gs_report.obj
+ 0002:00001118       $unwind$capture_previous_context 000000018000f118     MSVCRT:gs_report.obj
+ 0002:00001124       $unwind$__raise_securityfailure 000000018000f124     MSVCRT:gs_report.obj
+ 0002:0000112c       $unwind$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018000f12c     MSVCRT:dll_dllmain.obj
+ 0002:00001168       $unwind$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018000f168     MSVCRT:dll_dllmain.obj
+ 0002:00001170       $unwind$?dllmain_crt_process_detach@@YAH_N@Z 000000018000f170     MSVCRT:dll_dllmain.obj
+ 0002:000011c4       $unwind$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000f1c4     MSVCRT:dll_dllmain.obj
+ 0002:000011cc       $unwind$?fin$1@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000f1cc     MSVCRT:dll_dllmain.obj
+ 0002:000011d4       $unwind$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000f1d4     MSVCRT:dll_dllmain.obj
+ 0002:000011dc       $unwind$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000f1dc     MSVCRT:dll_dllmain.obj
+ 0002:00001204       $unwind$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018000f204     MSVCRT:dll_dllmain.obj
+ 0002:0000120c       $unwind$_DllMainCRTStartup 000000018000f20c     MSVCRT:dll_dllmain.obj
+ 0002:0000121c       $unwind$__security_init_cookie 000000018000f21c     MSVCRT:gs_support.obj
+ 0002:00001228       $unwind$__get_entropy      000000018000f228     MSVCRT:gs_support.obj
+ 0002:00001230       $unwind$DllMain            000000018000f230     MSVCRT:dll_dllmain_stub.obj
+ 0002:00001238       $unwind$__scrt_initialize_default_local_stdio_options 000000018000f238     MSVCRT:default_local_stdio_options.obj
+ 0002:00001240       $unwind$atexit             000000018000f240     MSVCRT:utility.obj
+ 0002:00001248       $unwind$_onexit            000000018000f248     MSVCRT:utility.obj
+ 0002:00001250       $unwind$__scrt_is_nonwritable_in_current_image 000000018000f250     MSVCRT:utility.obj
+ 0002:00001270       $unwind$__scrt_is_nonwritable_in_current_image$filt$0 000000018000f270     MSVCRT:utility.obj
+ 0002:00001278       $unwind$__scrt_acquire_startup_lock 000000018000f278     MSVCRT:utility.obj
+ 0002:00001280       $unwind$__scrt_release_startup_lock 000000018000f280     MSVCRT:utility.obj
+ 0002:00001288       $unwind$__scrt_initialize_crt 000000018000f288     MSVCRT:utility.obj
+ 0002:00001290       $unwind$__scrt_uninitialize_crt 000000018000f290     MSVCRT:utility.obj
+ 0002:00001298       $unwind$__scrt_initialize_onexit_tables 000000018000f298     MSVCRT:utility.obj
+ 0002:000012a0       $unwind$__scrt_dllmain_exception_filter 000000018000f2a0     MSVCRT:utility.obj
+ 0002:000012b4       $unwind$__scrt_dllmain_before_initialize_c 000000018000f2b4     MSVCRT:utility.obj
+ 0002:000012bc       $unwind$__scrt_dllmain_after_initialize_c 000000018000f2bc     MSVCRT:utility.obj
+ 0002:000012c4       $unwind$__scrt_dllmain_uninitialize_c 000000018000f2c4     MSVCRT:utility.obj
+ 0002:000012cc       $unwind$__scrt_dllmain_uninitialize_critical 000000018000f2cc     MSVCRT:utility.obj
+ 0002:000012d4       $unwind$__scrt_dllmain_crt_thread_attach 000000018000f2d4     MSVCRT:utility.obj
+ 0002:000012dc       $unwind$__scrt_dllmain_crt_thread_detach 000000018000f2dc     MSVCRT:utility.obj
+ 0002:000012e4       $unwind$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 000000018000f2e4     MSVCRT:utility.obj
+ 0002:000012ec       $unwind$__scrt_get_show_window_mode 000000018000f2ec     MSVCRT:utility_desktop.obj
+ 0002:000012f4       $unwind$__scrt_is_managed_app 000000018000f2f4     MSVCRT:utility_desktop.obj
+ 0002:000012fc       $unwind$__scrt_fastfail    000000018000f2fc     MSVCRT:utility_desktop.obj
+ 0002:0000130c       $unwind$__scrt_unhandled_exception_filter 000000018000f30c     MSVCRT:utility_desktop.obj
+ 0002:00001318       $unwind$_RTC_Initialize    000000018000f318     MSVCRT:initsect.obj
+ 0002:00001324       $unwind$_RTC_Terminate     000000018000f324     MSVCRT:initsect.obj
+ 0002:00001330       $unwind$__castguard_check_failure_os_handled_wrapper 000000018000f330     MSVCRT:guard_support.obj
+ 0002:00001338       $unwind$__castguard_check_failure_user_handled_wrapper 000000018000f338     MSVCRT:guard_support.obj
+ 0002:00001340       $unwind$__castguard_check_failure_os_handled 000000018000f340     MSVCRT:guard_support.obj
+ 0002:00001348       $unwind$__castguard_check_failure_user_handled 000000018000f348     MSVCRT:guard_support.obj
+ 0002:00001350       $unwind$__castguard_slow_path_check_os_handled 000000018000f350     MSVCRT:guard_support.obj
+ 0002:00001358       $unwind$__castguard_slow_path_check_user_handled 000000018000f358     MSVCRT:guard_support.obj
+ 0002:00001360       $unwind$__isa_available_init 000000018000f360     MSVCRT:cpu_disp.obj
+ 0002:00001370       $xdatasym                  000000018000f370     MSVCRT:guard_dispatch.obj
+ 0002:00001378       $xdatasym                  000000018000f378     MSVCRT:guard_xfg_dispatch.obj
+ 0002:00001380       .edata                     000000018000f380     SSRP_A_cgxe.exp
+ 0002:000013a8       rgpv                       000000018000f3a8     SSRP_A_cgxe.exp
+ 0002:000013b0       rgszName                   000000018000f3b0     SSRP_A_cgxe.exp
+ 0002:000013b8       rgwOrd                     000000018000f3b8     SSRP_A_cgxe.exp
+ 0002:000013bc       szName                     000000018000f3bc     SSRP_A_cgxe.exp
+ 0002:000013cf       $N00001                    000000018000f3cf     SSRP_A_cgxe.exp
+ 0002:000013db       $N00002                    000000018000f3db     SSRP_A_cgxe.exp
+ 0002:00001978       .idata$6                   000000018000f978     libmx:libmx.dll
+ 0002:000019dc       .idata$6                   000000018000f9dc     libmex:libmex.dll
+ 0002:00001b90       .idata$6                   000000018000fb90     libemlrt:libemlrt.dll
+ 0002:00001c2a       .idata$6                   000000018000fc2a     libmwcgxert:libmwcgxert.dll
+ 0002:00001dc6       .idata$6                   000000018000fdc6     kernel32:KERNEL32.dll
+ 0002:00001e54       .idata$6                   000000018000fe54     vcruntime:VCRUNTIME140.dll
+ 0002:00001fa2       .idata$6                   000000018000ffa2     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00001fc2       .idata$6                   000000018000ffc2     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00001fe4       .idata$6                   000000018000ffe4     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00002004       .idata$6                   0000000180010004     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0003:00000000       $SG21900                   0000000180011000     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000020       $SG21901                   0000000180011020     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000000a0       $SG21903                   00000001800110a0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000000a8       $SG21927                   00000001800110a8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000000c0       $SG21904                   00000001800110c0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000120       $SG21906                   0000000180011120     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000130       $SG21907                   0000000180011130     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000190       $SG21909                   0000000180011190     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000001a0       $SG21910                   00000001800111a0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000200       $SG21924                   0000000180011200     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000210       $SG21925                   0000000180011210     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000270       $SG21928                   0000000180011270     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000002f0       $SG22269                   00000001800112f0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000300       $SG22319                   0000000180011300     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000310       emlrtRSI                   0000000180011310     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000328       b_emlrtRSI                 0000000180011328     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000340       c_emlrtRSI                 0000000180011340     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000358       d_emlrtRSI                 0000000180011358     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000370       e_emlrtRSI                 0000000180011370     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000388       f_emlrtRSI                 0000000180011388     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000003a0       g_emlrtRSI                 00000001800113a0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000003b8       h_emlrtRSI                 00000001800113b8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000003d0       emlrtMCI                   00000001800113d0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000003e8       b_emlrtMCI                 00000001800113e8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000400       ?c_u@?1??SystemCore_setup@@9@9 0000000180011400     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000434       ?d_u@?1??mw__internal__call__step@@9@9 0000000180011434     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000438       ?d_u@?1??SystemCore_setup@@9@9 0000000180011438     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000460       ?f_u@?1??SystemCore_setup@@9@9 0000000180011460     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000468       ?b_u@?1??mw__internal__call__reset@@9@9 0000000180011468     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000498       ?d_u@?1??mw__internal__call__reset@@9@9 0000000180011498     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000004a0       ?b_u@?1??mw__internal__call__step@@9@9 00000001800114a0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000004d0       ?sv@?1??emlrt_marshallOut@@9@9 00000001800114d0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000004d8       $SG22270                   00000001800114d8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000004e8       $SG22287                   00000001800114e8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000004f0       $SG22288                   00000001800114f0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000004f8       $SG22289                   00000001800114f8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:0000050c       $SG22394                   000000018001150c     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000518       $SG22290                   0000000180011518     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:0000052c       $SG22419                   000000018001152c     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000538       ?fieldNames@?1??c_emlrt_marshallIn@@9@9 0000000180011538     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000540       $SG22320                   0000000180011540     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000550       $SG22321                   0000000180011550     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000560       $SG22370                   0000000180011560     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000568       $SG22381                   0000000180011568     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000578       $SG22405                   0000000180011578     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000580       $SG22432                   0000000180011580     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000588       $SG22538                   0000000180011588     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000005b0       $SG22547                   00000001800115b0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000005c0       $SG22549                   00000001800115c0     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000005d8       $SG22550                   00000001800115d8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:000005e8       $SG22551                   00000001800115e8     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00000618       $SG21256                   0000000180011618     SSRP_A_cgxe_registry.obj
+ 0003:00000648       $SG21261                   0000000180011648     SSRP_A_cgxe_registry.obj
+ 0003:00000688       $SG21268                   0000000180011688     SSRP_A_cgxe_registry.obj
+ 0003:000006bc       $SG21325                   00000001800116bc     SSRP_A_cgxe_registry.obj
+ 0003:000006c4       $SG21329                   00000001800116c4     SSRP_A_cgxe_registry.obj
+ 0003:000006cc       $SG23194                   00000001800116cc     SSRP_A_cgxe_registry.obj
+ 0003:000006d0       $SG21275                   00000001800116d0     SSRP_A_cgxe_registry.obj
+ 0003:00000704       $SG21335                   0000000180011704     SSRP_A_cgxe_registry.obj
+ 0003:0000070c       $SG23275                   000000018001170c     SSRP_A_cgxe_registry.obj
+ 0003:00000710       $SG21280                   0000000180011710     SSRP_A_cgxe_registry.obj
+ 0003:00000748       $SG21323                   0000000180011748     SSRP_A_cgxe_registry.obj
+ 0003:00000750       $SG21327                   0000000180011750     SSRP_A_cgxe_registry.obj
+ 0003:00000760       $SG21331                   0000000180011760     SSRP_A_cgxe_registry.obj
+ 0003:00000768       $SG21332                   0000000180011768     SSRP_A_cgxe_registry.obj
+ 0003:00000770       $SG21333                   0000000180011770     SSRP_A_cgxe_registry.obj
+ 0003:00000778       $SG21334                   0000000180011778     SSRP_A_cgxe_registry.obj
+ 0003:00000788       $SG21336                   0000000180011788     SSRP_A_cgxe_registry.obj
+ 0003:00000790       $SG21381                   0000000180011790     SSRP_A_cgxe_registry.obj
+ 0003:000007c0       $SG21396                   00000001800117c0     SSRP_A_cgxe_registry.obj
+ 0003:000007f0       $SG21414                   00000001800117f0     SSRP_A_cgxe_registry.obj
+ 0003:00000808       $SG21432                   0000000180011808     SSRP_A_cgxe_registry.obj
+ 0003:00000820       $SG21450                   0000000180011820     SSRP_A_cgxe_registry.obj
+ 0003:00000830       $SG21452                   0000000180011830     SSRP_A_cgxe_registry.obj
+ 0003:00000840       $SG21454                   0000000180011840     SSRP_A_cgxe_registry.obj
+ 0003:00000850       $SG21456                   0000000180011850     SSRP_A_cgxe_registry.obj
+ 0003:00000860       $SG21458                   0000000180011860     SSRP_A_cgxe_registry.obj
+ 0003:00000878       $SG21460                   0000000180011878     SSRP_A_cgxe_registry.obj
+ 0003:00000890       $SG21474                   0000000180011890     SSRP_A_cgxe_registry.obj
+ 0003:000008b8       _sfcnName                  00000001800118b8     SSRP_A_cgxe_registry.obj
+ 0003:000008e0       $SG21491                   00000001800118e0     SSRP_A_cgxe_registry.obj
+ 0003:00000958       $SG21900                   0000000180011958     SSRP_A_cgxe_registry.obj
+ 0003:00000964       $SG22107                   0000000180011964     SSRP_A_cgxe_registry.obj
+ 0003:00000970       $SG21496                   0000000180011970     SSRP_A_cgxe_registry.obj
+ 0003:000009e8       $SG21901                   00000001800119e8     SSRP_A_cgxe_registry.obj
+ 0003:000009f8       $SG21915                   00000001800119f8     SSRP_A_cgxe_registry.obj
+ 0003:00000a08       $SG22105                   0000000180011a08     SSRP_A_cgxe_registry.obj
+ 0003:00000a48       $SG22106                   0000000180011a48     SSRP_A_cgxe_registry.obj
+ 0003:00000a58       $SG22113                   0000000180011a58     SSRP_A_cgxe_registry.obj
+ 0003:00000a60       $SG22111                   0000000180011a60     SSRP_A_cgxe_registry.obj
+ 0003:00000aa8       $SG22112                   0000000180011aa8     SSRP_A_cgxe_registry.obj
+ 0003:00000ab8       $SG22116                   0000000180011ab8     SSRP_A_cgxe_registry.obj
+ 0003:00000ac0       $SG22114                   0000000180011ac0     SSRP_A_cgxe_registry.obj
+ 0003:00000b18       $SG22115                   0000000180011b18     SSRP_A_cgxe_registry.obj
+ 0003:00000b28       $SG22138                   0000000180011b28     SSRP_A_cgxe_registry.obj
+ 0003:00000b68       $SG22139                   0000000180011b68     SSRP_A_cgxe_registry.obj
+ 0003:00000b78       $SG22140                   0000000180011b78     SSRP_A_cgxe_registry.obj
+ 0003:00000b80       $SG22144                   0000000180011b80     SSRP_A_cgxe_registry.obj
+ 0003:00000bc8       $SG22145                   0000000180011bc8     SSRP_A_cgxe_registry.obj
+ 0003:00000bd8       $SG22146                   0000000180011bd8     SSRP_A_cgxe_registry.obj
+ 0003:00000be0       $SG22147                   0000000180011be0     SSRP_A_cgxe_registry.obj
+ 0003:00000c38       $SG22148                   0000000180011c38     SSRP_A_cgxe_registry.obj
+ 0003:00000c48       $SG22149                   0000000180011c48     SSRP_A_cgxe_registry.obj
+ 0003:00000c50       $SG22173                   0000000180011c50     SSRP_A_cgxe_registry.obj
+ 0003:00000ca0       $SG22174                   0000000180011ca0     SSRP_A_cgxe_registry.obj
+ 0003:00000cb0       $SG22175                   0000000180011cb0     SSRP_A_cgxe_registry.obj
+ 0003:00000cb8       $SG22188                   0000000180011cb8     SSRP_A_cgxe_registry.obj
+ 0003:00000cc0       $SG22187                   0000000180011cc0     SSRP_A_cgxe_registry.obj
+ 0003:00000d20       $SG22189                   0000000180011d20     SSRP_A_cgxe_registry.obj
+ 0003:00000d28       $SG22202                   0000000180011d28     SSRP_A_cgxe_registry.obj
+ 0003:00000d30       $SG22201                   0000000180011d30     SSRP_A_cgxe_registry.obj
+ 0003:00000d90       $SG22203                   0000000180011d90     SSRP_A_cgxe_registry.obj
+ 0003:00000d98       $SG23178                   0000000180011d98     SSRP_A_cgxe_registry.obj
+ 0003:00000db0       $SG22556                   0000000180011db0     SSRP_A_cgxe_registry.obj
+ 0003:00000e28       $SG23249                   0000000180011e28     SSRP_A_cgxe_registry.obj
+ 0003:00000e30       $SG22559                   0000000180011e30     SSRP_A_cgxe_registry.obj
+ 0003:00000ea4       $SG23250                   0000000180011ea4     SSRP_A_cgxe_registry.obj
+ 0003:00000eb0       $SG22564                   0000000180011eb0     SSRP_A_cgxe_registry.obj
+ 0003:00000f28       $SG23251                   0000000180011f28     SSRP_A_cgxe_registry.obj
+ 0003:00000f30       $SG22572                   0000000180011f30     SSRP_A_cgxe_registry.obj
+ 0003:00000fa0       $SG22847                   0000000180011fa0     SSRP_A_cgxe_registry.obj
+ 0003:00001018       $SG23257                   0000000180012018     SSRP_A_cgxe_registry.obj
+ 0003:00001020       $SG22852                   0000000180012020     SSRP_A_cgxe_registry.obj
+ 0003:00001098       $SG23260                   0000000180012098     SSRP_A_cgxe_registry.obj
+ 0003:000010a0       $SG23191                   00000001800120a0     SSRP_A_cgxe_registry.obj
+ 0003:00001118       $SG23263                   0000000180012118     SSRP_A_cgxe_registry.obj
+ 0003:00001120       $SG23252                   0000000180012120     SSRP_A_cgxe_registry.obj
+ 0003:00001198       $SG23269                   0000000180012198     SSRP_A_cgxe_registry.obj
+ 0003:000011a0       $SG23254                   00000001800121a0     SSRP_A_cgxe_registry.obj
+ 0003:00001220       $SG23264                   0000000180012220     SSRP_A_cgxe_registry.obj
+ 0003:000012a0       $SG23265                   00000001800122a0     SSRP_A_cgxe_registry.obj
+ 0003:000012b0       $SG23267                   00000001800122b0     SSRP_A_cgxe_registry.obj
+ 0003:000012bc       $SG23271                   00000001800122bc     SSRP_A_cgxe_registry.obj
+ 0003:000012c8       $SG23273                   00000001800122c8     SSRP_A_cgxe_registry.obj
+ 0003:000012d8       $SG23396                   00000001800122d8     SSRP_A_cgxe_registry.obj
+ 0003:00001308       $SG23398                   0000000180012308     SSRP_A_cgxe_registry.obj
+ 0003:00001310       $SG23278                   0000000180012310     SSRP_A_cgxe_registry.obj
+ 0003:000013f8       $SG23397                   00000001800123f8     SSRP_A_cgxe_registry.obj
+ 0003:00001408       $SG23400                   0000000180012408     SSRP_A_cgxe_registry.obj
+ 0003:00001440       $SG23401                   0000000180012440     SSRP_A_cgxe_registry.obj
+ 0003:00001450       $SG23402                   0000000180012450     SSRP_A_cgxe_registry.obj
+ 0003:00001458       $SG23405                   0000000180012458     SSRP_A_cgxe_registry.obj
+ 0003:00001490       $SG23406                   0000000180012490     SSRP_A_cgxe_registry.obj
+ 0003:000014a0       $SG23407                   00000001800124a0     SSRP_A_cgxe_registry.obj
+ 0003:000014a8       $SG23409                   00000001800124a8     SSRP_A_cgxe_registry.obj
+ 0003:000014e0       $SG23410                   00000001800124e0     SSRP_A_cgxe_registry.obj
+ 0003:000014f0       $SG23411                   00000001800124f0     SSRP_A_cgxe_registry.obj
+ 0003:000014f8       $SG23413                   00000001800124f8     SSRP_A_cgxe_registry.obj
+ 0003:00001530       $SG23414                   0000000180012530     SSRP_A_cgxe_registry.obj
+ 0003:00001540       $SG23415                   0000000180012540     SSRP_A_cgxe_registry.obj
+ 0003:00001548       $SG23418                   0000000180012548     SSRP_A_cgxe_registry.obj
+ 0003:00001558       $SG23420                   0000000180012558     SSRP_A_cgxe_registry.obj
+ 0003:00001570       $SG23421                   0000000180012570     SSRP_A_cgxe_registry.obj
+ 0003:000015a8       $SG23422                   00000001800125a8     SSRP_A_cgxe_registry.obj
+ 0003:000015b8       $SG23423                   00000001800125b8     SSRP_A_cgxe_registry.obj
+ 0003:000015c0       $SG23558                   00000001800125c0     SSRP_A_cgxe_registry.obj
+ 0003:000015e0       $SG23559                   00000001800125e0     SSRP_A_cgxe_registry.obj
+ 0003:00001670       $SG23565                   0000000180012670     SSRP_A_cgxe_registry.obj
+ 0003:00001688       $SG23572                   0000000180012688     SSRP_A_cgxe_registry.obj
+ 0003:000016a0       $SG23566                   00000001800126a0     SSRP_A_cgxe_registry.obj
+ 0003:00001730       $SG23573                   0000000180012730     SSRP_A_cgxe_registry.obj
+ 0003:000017c0       $SG23579                   00000001800127c0     SSRP_A_cgxe_registry.obj
+ 0003:000017e0       $SG23580                   00000001800127e0     SSRP_A_cgxe_registry.obj
+ 0003:00001870       $SG23586                   0000000180012870     SSRP_A_cgxe_registry.obj
+ 0003:00001890       $SG23587                   0000000180012890     SSRP_A_cgxe_registry.obj
+ 0003:00001920       $SG23591                   0000000180012920     SSRP_A_cgxe_registry.obj
+ 0003:00001940       $SG23592                   0000000180012940     SSRP_A_cgxe_registry.obj
+ 0003:000019d0       $SG23596                   00000001800129d0     SSRP_A_cgxe_registry.obj
+ 0003:000019f8       $SG23601                   00000001800129f8     SSRP_A_cgxe_registry.obj
+ 0003:00001a20       $SG23597                   0000000180012a20     SSRP_A_cgxe_registry.obj
+ 0003:00001ab0       $SG23602                   0000000180012ab0     SSRP_A_cgxe_registry.obj
+ 0003:00001b40       $SG23606                   0000000180012b40     SSRP_A_cgxe_registry.obj
+ 0003:00001b60       $SG23607                   0000000180012b60     SSRP_A_cgxe_registry.obj
+ 0003:00001bf0       $SG23611                   0000000180012bf0     SSRP_A_cgxe_registry.obj
+ 0003:00001c10       $SG23612                   0000000180012c10     SSRP_A_cgxe_registry.obj
+ 0003:00001ca0       $SG23616                   0000000180012ca0     SSRP_A_cgxe_registry.obj
+ 0003:00001cb8       $SG23652                   0000000180012cb8     SSRP_A_cgxe_registry.obj
+ 0003:00001cd0       $SG23617                   0000000180012cd0     SSRP_A_cgxe_registry.obj
+ 0003:00001d60       $SG23621                   0000000180012d60     SSRP_A_cgxe_registry.obj
+ 0003:00001d80       $SG23622                   0000000180012d80     SSRP_A_cgxe_registry.obj
+ 0003:00001e10       $SG23626                   0000000180012e10     SSRP_A_cgxe_registry.obj
+ 0003:00001e30       $SG23627                   0000000180012e30     SSRP_A_cgxe_registry.obj
+ 0003:00001ec0       $SG23631                   0000000180012ec0     SSRP_A_cgxe_registry.obj
+ 0003:00001ee0       $SG23632                   0000000180012ee0     SSRP_A_cgxe_registry.obj
+ 0003:00001f70       $SG23636                   0000000180012f70     SSRP_A_cgxe_registry.obj
+ 0003:00001f90       $SG23637                   0000000180012f90     SSRP_A_cgxe_registry.obj
+ 0003:00002020       $SG23641                   0000000180013020     SSRP_A_cgxe_registry.obj
+ 0003:00002040       $SG23642                   0000000180013040     SSRP_A_cgxe_registry.obj
+ 0003:000020d0       $SG23646                   00000001800130d0     SSRP_A_cgxe_registry.obj
+ 0003:000020f0       $SG23647                   00000001800130f0     SSRP_A_cgxe_registry.obj
+ 0003:00002180       $SG23653                   0000000180013180     SSRP_A_cgxe_registry.obj
+ 0003:00002210       $SG23658                   0000000180013210     SSRP_A_cgxe_registry.obj
+ 0003:00002228       $SG23668                   0000000180013228     SSRP_A_cgxe_registry.obj
+ 0003:00002240       $SG23659                   0000000180013240     SSRP_A_cgxe_registry.obj
+ 0003:000022d0       $SG23663                   00000001800132d0     SSRP_A_cgxe_registry.obj
+ 0003:000022e0       $SG23664                   00000001800132e0     SSRP_A_cgxe_registry.obj
+ 0003:00002370       $SG23669                   0000000180013370     SSRP_A_cgxe_registry.obj
+ 0003:00002400       $SG23677                   0000000180013400     SSRP_A_cgxe_registry.obj
+ 0003:00002410       $SG23678                   0000000180013410     SSRP_A_cgxe_registry.obj
+ 0003:000024a0       $SG23682                   00000001800134a0     SSRP_A_cgxe_registry.obj
+ 0003:00002520       $SG23684                   0000000180013520     SSRP_A_cgxe_registry.obj
+ 0003:00002598       $SG23731                   0000000180013598     SSRP_A_cgxe_registry.obj
+ 0003:000025a8       $SG23812                   00000001800135a8     SSRP_A_cgxe_registry.obj
+ 0003:000025b0       $SG23688                   00000001800135b0     SSRP_A_cgxe_registry.obj
+ 0003:00002628       $SG23742                   0000000180013628     SSRP_A_cgxe_registry.obj
+ 0003:00002638       $SG23813                   0000000180013638     SSRP_A_cgxe_registry.obj
+ 0003:00002640       $SG23718                   0000000180013640     SSRP_A_cgxe_registry.obj
+ 0003:00002758       $SG23755                   0000000180013758     SSRP_A_cgxe_registry.obj
+ 0003:00002768       $SG23766                   0000000180013768     SSRP_A_cgxe_registry.obj
+ 0003:00002778       $SG23779                   0000000180013778     SSRP_A_cgxe_registry.obj
+ 0003:00002788       $SG23790                   0000000180013788     SSRP_A_cgxe_registry.obj
+ 0003:00002798       $SG23800                   0000000180013798     SSRP_A_cgxe_registry.obj
+ 0003:000027b8       $SG23811                   00000001800137b8     SSRP_A_cgxe_registry.obj
+ 0003:000027e8       $SG23824                   00000001800137e8     SSRP_A_cgxe_registry.obj
+ 0003:00002820       $SG23825                   0000000180013820     SSRP_A_cgxe_registry.obj
+ 0003:00002828       $SG23826                   0000000180013828     SSRP_A_cgxe_registry.obj
+ 0003:00002870       $SG21912                   0000000180013870     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00002871       $SG21913                   0000000180013871     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00002872       $SG21915                   0000000180013872     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00002873       $SG21916                   0000000180013873     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00002874       $SG21918                   0000000180013874     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00002875       $SG21919                   0000000180013875     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00002876       $SG21921                   0000000180013876     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00002877       $SG21922                   0000000180013877     m_5xTZ4YsU7u7BGsF2q9qRzE.obj
+ 0003:00002878       $SG23245                   0000000180013878     SSRP_A_cgxe_registry.obj
+ 0003:0000287a       ?warningGuard@?1??ssGetRootSS@@9@9 000000018001387a     SSRP_A_cgxe_registry.obj
+ 0003:0000287b       ?warningGuard@?1??ssGetParentSS@@9@9 000000018001387b     SSRP_A_cgxe_registry.obj
+ 0003:00002880       GS_ExceptionRecord         0000000180013880     MSVCRT:gs_report.obj
+ 0003:00002920       GS_ContextRecord           0000000180013920     MSVCRT:gs_report.obj
+ 0003:00002df0       ?__proc_attached@@3HA      0000000180013df0     MSVCRT:dll_dllmain.obj
+ 0003:00002e30       ?is_initialized_as_dll@@3_NA 0000000180013e30     MSVCRT:utility.obj
+ 0003:00002e31       ?module_local_atexit_table_initialized@@3_NA 0000000180013e31     MSVCRT:utility.obj
+ 0003:00002e38       ?module_local_atexit_table@@3U_onexit_table_t@@A 0000000180013e38     MSVCRT:utility.obj
+ 0003:00002e50       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 0000000180013e50     MSVCRT:utility.obj

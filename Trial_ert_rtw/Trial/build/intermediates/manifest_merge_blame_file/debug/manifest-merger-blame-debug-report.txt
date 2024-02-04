@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.Trial"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:10:1-71
+11-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:10:18-69
+12    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+12-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:10:71-145
+12-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:10:88-143
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:11:1-66
+13-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:11:18-64
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:12:1-62
+14-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:12:18-60
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:13:1-74
+15-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:13:18-72
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:14:1-60
+16-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:14:18-58
+17
+18    <uses-feature android:name="android.hardware.camera" />
+18-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:15:1-55
+18-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:15:15-53
+19    <uses-feature android:name="android.hardware.camera.autofocus" />
+19-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:16:1-65
+19-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:16:15-63
+20
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:17:1-74
+21-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:17:18-72
+22
+23    <application
+23-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:2:5-9:19
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.3.1] C:\Users\parag\.gradle\caches\transforms-3\d2b38ed747382c5e5a6e7478df98d3b8\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@drawable/ic_launcher"
+26-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:2:18-54
+27        android:label="@string/app_name"
+27-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:2:55-87
+28        android:theme="@style/MWAppTheme" >
+28-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:2:88-121
+29        <activity
+29-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:3:9-8:20
+30            android:name="com.example.Trial.Trial"
+30-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:3:52-72
+31            android:configChanges="orientation|screenSize"
+31-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:3:119-165
+32            android:label="@string/app_name"
+32-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:3:19-51
+33            android:theme="@style/MWAppTheme.NoActionBar" >
+33-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:3:73-118
+34            <intent-filter>
+34-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:4:13-7:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:5:17-68
+35-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:5:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:6:17-76
+37-->C:\Different\Matlab_App\Trial_ert_rtw\Trial\src\main\AndroidManifest.xml:6:27-74
+38            </intent-filter>
+39        </activity>
+40    </application>
+41
+42</manifest>

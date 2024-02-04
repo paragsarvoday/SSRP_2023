@@ -1,0 +1,4 @@
+#Sat Sep 30 15:14:50 IST 2023
+base.0=C\:\\Different\\Matlab_App\\Trial_ert_rtw\\Trial\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
