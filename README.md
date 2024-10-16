@@ -1,7 +1,7 @@
 [Video](https://youtu.be/cZvXqqwKNAc) explaining the project.                                                       
 
-Child_App.slx and Map_Child.slx are simulink project files for the child's phone.
-
+Child_App.slx and Map_Child.slx are simulink project files for the child's phone.                                                   
+                                    
 Parent_App.slx and Map_Parent.slx are simulink project files for the parent's phone.
 
 You must have the Simulink's Android Support Package installed in order to open the files.
