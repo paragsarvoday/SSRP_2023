@@ -1,4 +1,4 @@
-[Video](https://youtu.be/cZvXqqwKNAc) explaining the project. 
+[Video](https://youtu.be/cZvXqqwKNAc) explaining the project.                                                       
 
 Child_App.slx and Map_Child.slx are simulink project files for the child's phone.
 
