@@ -41,7 +41,7 @@ This project aims to develop a child-monitoring app to monitor a child's safety 
 
 For a detailed explanation of the project, watch the video:
 
-[![Smart Bicycle Safety Monitoring App](https://img.youtube.com/vi/cZvXqqwKNAc/0.jpg)](https://www.youtube.com/watch?v=cZvXqqwKNAc)
+[![Smart Bicycle Safety Monitoring App](![image](https://github.com/user-attachments/assets/f50c0923-b9d2-43c4-b7f1-4e1fad35aa5a))](https://www.youtube.com/watch?v=cZvXqqwKNAc)
 
 ## How to Use
 
